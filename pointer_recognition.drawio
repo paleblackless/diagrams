@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-18T08:04:20.779Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="r-GGE6nZZfruSXipEbwx" version="15.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-18T08:58:43.290Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="ojIIaUnd6ABCkuBc4Wdp" version="15.5.4" type="github">
   <diagram id="4dSIXxkFexYw1DjFxKig" name="Page-1">
     <mxGraphModel dx="981" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -26,7 +26,7 @@
           <mxGeometry x="140" y="170" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CvQ9jGdUtymx2-pjMeEo-7" value="&lt;b&gt;基于对称最大化的迭代二值化操作&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="170" width="120" height="30" as="geometry" />
+          <mxGeometry x="270" y="170" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CvQ9jGdUtymx2-pjMeEo-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CvQ9jGdUtymx2-pjMeEo-8" target="CvQ9jGdUtymx2-pjMeEo-12">
           <mxGeometry relative="1" as="geometry" />
@@ -37,8 +37,20 @@
         <mxCell id="CvQ9jGdUtymx2-pjMeEo-11" value="&lt;b&gt;1.细化/skeleton 提取&lt;br&gt;2.ransac拟合递归&lt;br&gt;直线&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="410" y="180" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="CvQ9jGdUtymx2-pjMeEo-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CvQ9jGdUtymx2-pjMeEo-12" target="CvQ9jGdUtymx2-pjMeEo-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CvQ9jGdUtymx2-pjMeEo-12" value="零刻线识别" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CvQ9jGdUtymx2-pjMeEo-14" value="&lt;b&gt;基于先验假设（左下位置,连通性大小）&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="170" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CvQ9jGdUtymx2-pjMeEo-15" value="读取数值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CvQ9jGdUtymx2-pjMeEo-18" value="&lt;b&gt;重新定义极坐标方程基于角度相对关系确定&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="170" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
