@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-19T02:42:28.933Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="n17yBvKy_NJaHObXkFMk" version="15.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-19T03:14:58.311Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="arkJR4QcjNNvvqFUX4GH" version="15.5.4" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="981" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="1650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -162,10 +162,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pxwzik7FVnxecyrCKVpQ-80" value="仪表仪器标准配置库" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontColor=#000000;align=center;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="610" y="280" width="160" height="70" as="geometry" />
+          <mxGeometry x="610" y="270" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="pxwzik7FVnxecyrCKVpQ-81" value="内容" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Times New Roman;fontColor=#000000;align=center;" vertex="1" parent="1">
-          <mxGeometry x="610" y="350" width="160" height="90" as="geometry" />
+          <mxGeometry x="610" y="340" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="pxwzik7FVnxecyrCKVpQ-82" value="配准图像模板" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Times New Roman;fontColor=#000000;" vertex="1" parent="pxwzik7FVnxecyrCKVpQ-81">
           <mxGeometry y="30" width="160" height="30" as="geometry" />
@@ -187,6 +187,11 @@
         </mxCell>
         <mxCell id="pxwzik7FVnxecyrCKVpQ-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontColor=#CC0000;" edge="1" parent="1" source="pxwzik7FVnxecyrCKVpQ-96" target="pxwzik7FVnxecyrCKVpQ-19">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pxwzik7FVnxecyrCKVpQ-131" value="H" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Times New Roman;fontColor=#000000;" vertex="1" connectable="0" parent="pxwzik7FVnxecyrCKVpQ-110">
+          <mxGeometry x="-0.348" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="pxwzik7FVnxecyrCKVpQ-96" value="特征提取" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="578.75" y="170" width="60" height="40" as="geometry" />
@@ -221,8 +226,20 @@
         <mxCell id="pxwzik7FVnxecyrCKVpQ-121" value="读数区域矩形化" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Times New Roman;fontColor=#CC0000;" vertex="1" parent="pxwzik7FVnxecyrCKVpQ-119">
           <mxGeometry y="60" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pxwzik7FVnxecyrCKVpQ-122" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Times New Roman;fontColor=#CC0000;" vertex="1" parent="pxwzik7FVnxecyrCKVpQ-119">
+        <mxCell id="pxwzik7FVnxecyrCKVpQ-122" value="指针位置/刻度线提取" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Times New Roman;fontColor=#CC0000;" vertex="1" parent="pxwzik7FVnxecyrCKVpQ-119">
           <mxGeometry y="90" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pxwzik7FVnxecyrCKVpQ-123" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontColor=#000000;align=center;labelBackgroundColor=none;fillColor=none;dashed=1;strokeColor=#00CC00;" vertex="1" parent="1">
+          <mxGeometry x="180" y="-30" width="900" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="pxwzik7FVnxecyrCKVpQ-125" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontColor=#000000;align=center;labelBackgroundColor=none;fillColor=none;dashed=1;strokeColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="180" y="155" width="910" height="295" as="geometry" />
+        </mxCell>
+        <mxCell id="pxwzik7FVnxecyrCKVpQ-129" value="基于语义分割识别仪表示数：利用刻度线和仪表指针的特征信息作为训练语义分割网络，其目的直接&lt;b&gt;识别分割出刻度线区域和指针区域位置&lt;/b&gt;，实现洗颗粒度的目标识别分割，再利用刻度线的空间位置关系（指针移动的轨迹是共圆形），计算&lt;b&gt;定位仪表中心位置&lt;/b&gt;，基于中心点坐标进行&lt;b&gt;极坐标矩形化&lt;/b&gt;展开识别指针位置，在读取数值主动定位&lt;b&gt;零刻度线位置&lt;/b&gt;和加载&lt;b&gt;量程信息&lt;/b&gt;等用于计算读取指针数值。" style="text;html=1;strokeColor=#3333FF;fillColor=#66B2FF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=none;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="200" y="310" width="330" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pxwzik7FVnxecyrCKVpQ-130" value="基于文本识别仪表示数方案：主要利用&lt;b&gt;文本信息&lt;/b&gt;作为一种（模拟仪表）常规特征用于读数，较为具有广泛的特性，数字的分布和刻度线的分布具有一般一致性（&lt;b&gt;弧度分布一致性&lt;/b&gt;），可以辅助&lt;b&gt;定位仪表中心位置和刻度线位置&lt;/b&gt;，在读取数值阶段，可推到计算数字刻度位置对应的刻度线位置，基于&lt;b&gt;相对位置距离&lt;/b&gt;关系读取仪表数值，无需配置参数，简化读取流程。" style="text;html=1;strokeColor=#82b366;fillColor=#00FF80;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=none;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="620" y="67" width="400" height="83" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
