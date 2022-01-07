@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-05T07:57:29.994Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Aq_m_BMw8Wgu5P_NO0ek" version="16.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-07T07:16:26.338Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="tD3efZmNCSSvIWJp1KW-" version="16.2.2" type="github">
   <diagram id="50CfDN7zMZMZiT8PBJIm" name="Page-1">
-    <mxGraphModel dx="1101" dy="504" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="526" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,8 +25,8 @@
             <mxPoint x="96" y="191" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0vJlOstJJPzeJg9LQ7au-6" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;红色：检测成功&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;绿色：检测失败&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="0vJlOstJJPzeJg9LQ7au-5" vertex="1">
-          <mxGeometry x="55" y="152" width="104.97" height="25.21" as="geometry" />
+        <mxCell id="0vJlOstJJPzeJg9LQ7au-6" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;红色：输电线检测成功&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;绿色：输电线检测失败&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="0vJlOstJJPzeJg9LQ7au-5" vertex="1">
+          <mxGeometry x="55" y="152" width="131" height="25.21" as="geometry" />
         </mxCell>
         <mxCell id="0vJlOstJJPzeJg9LQ7au-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeWidth=2;" parent="1" source="0vJlOstJJPzeJg9LQ7au-8" target="0vJlOstJJPzeJg9LQ7au-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
