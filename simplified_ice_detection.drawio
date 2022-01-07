@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2022-01-07T07:31:57.608Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" version="16.2.2" etag="16NrbxfEPoqHXLMQKT_l" type="github"><diagram id="e7esTIfbbPWXW5FwrzK9">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-07T07:35:12.392Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="msJITjs0J8qLM55q7hiM" version="16.2.2" type="github">
+  <diagram id="e7esTIfbbPWXW5FwrzK9" name="Page-1">
+    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UKRAZJ5MF8Vgy-vyVGfO-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UKRAZJ5MF8Vgy-vyVGfO-2" target="UKRAZJ5MF8Vgy-vyVGfO-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UKRAZJ5MF8Vgy-vyVGfO-2" value="图像输入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="121" y="250" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UKRAZJ5MF8Vgy-vyVGfO-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UKRAZJ5MF8Vgy-vyVGfO-7" target="UKRAZJ5MF8Vgy-vyVGfO-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UKRAZJ5MF8Vgy-vyVGfO-7" value="图像预处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="221" y="250" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UKRAZJ5MF8Vgy-vyVGfO-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UKRAZJ5MF8Vgy-vyVGfO-17" target="UKRAZJ5MF8Vgy-vyVGfO-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UKRAZJ5MF8Vgy-vyVGfO-17" value="边缘提取" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="331" y="250" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UKRAZJ5MF8Vgy-vyVGfO-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UKRAZJ5MF8Vgy-vyVGfO-19" target="UKRAZJ5MF8Vgy-vyVGfO-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UKRAZJ5MF8Vgy-vyVGfO-19" value="图像融合" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="431" y="250" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UKRAZJ5MF8Vgy-vyVGfO-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UKRAZJ5MF8Vgy-vyVGfO-26" target="UKRAZJ5MF8Vgy-vyVGfO-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UKRAZJ5MF8Vgy-vyVGfO-26" value="图像对比" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="250" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UKRAZJ5MF8Vgy-vyVGfO-27" value="结果输出" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="250" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UKRAZJ5MF8Vgy-vyVGfO-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UKRAZJ5MF8Vgy-vyVGfO-28" target="UKRAZJ5MF8Vgy-vyVGfO-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UKRAZJ5MF8Vgy-vyVGfO-28" value="&lt;span&gt;读取未覆冰导线数据&lt;/span&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="555" y="330" width="60" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
