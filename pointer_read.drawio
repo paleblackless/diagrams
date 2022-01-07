@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-07T06:24:00.497Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="bTcFWpph8l0C_tNiCoWp" version="16.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-07T06:31:25.530Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="dCfJMmv1NSvRCOouYLdz" version="16.2.2" type="github">
   <diagram id="610SgD7YnVHCjaB17FsK" name="Page-1">
     <mxGraphModel dx="813" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
         <mxCell id="z9Anpfnr3xJ7GCsFAiRR-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="z9Anpfnr3xJ7GCsFAiRR-3" target="z9Anpfnr3xJ7GCsFAiRR-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z9Anpfnr3xJ7GCsFAiRR-3" value="仪表文本目标定和+识别" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="z9Anpfnr3xJ7GCsFAiRR-3" value="仪表文本内容目标定位和识别" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="z9Anpfnr3xJ7GCsFAiRR-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="z9Anpfnr3xJ7GCsFAiRR-6" target="z9Anpfnr3xJ7GCsFAiRR-8" edge="1">
