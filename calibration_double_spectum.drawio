@@ -1,1 +1,90 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T01:38:26.477Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" version="16.2.7" etag="bqfBWjU0FJz3neuZwUug" type="github"><diagram id="oXHGxaU9NuX3QUXE2wD-">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-21T02:27:14.132Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="MN-3T9Z4vz0tQr3ESEcl" version="16.2.7" type="github">
+  <diagram id="oXHGxaU9NuX3QUXE2wD-" name="Page-1">
+    <mxGraphModel dx="981" dy="487" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BI08_QsTC04o57U2SPYi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BI08_QsTC04o57U2SPYi-1" target="BI08_QsTC04o57U2SPYi-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BI08_QsTC04o57U2SPYi-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.574;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BI08_QsTC04o57U2SPYi-1" target="BI08_QsTC04o57U2SPYi-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BI08_QsTC04o57U2SPYi-1" value="可见光图像" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="70" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BI08_QsTC04o57U2SPYi-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BI08_QsTC04o57U2SPYi-2" target="BI08_QsTC04o57U2SPYi-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="435" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BI08_QsTC04o57U2SPYi-2" value="热成像图像" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="135" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BI08_QsTC04o57U2SPYi-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BI08_QsTC04o57U2SPYi-3" target="BI08_QsTC04o57U2SPYi-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BI08_QsTC04o57U2SPYi-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.54;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BI08_QsTC04o57U2SPYi-3" target="BI08_QsTC04o57U2SPYi-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="198" y="30" />
+              <mxPoint x="548" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BI08_QsTC04o57U2SPYi-23" value="检测目标坐标" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BI08_QsTC04o57U2SPYi-22">
+          <mxGeometry x="0.0234" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BI08_QsTC04o57U2SPYi-3" value="视觉检测模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="70" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BI08_QsTC04o57U2SPYi-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BI08_QsTC04o57U2SPYi-6" target="BI08_QsTC04o57U2SPYi-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BI08_QsTC04o57U2SPYi-14" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BI08_QsTC04o57U2SPYi-13">
+          <mxGeometry x="-0.2222" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BI08_QsTC04o57U2SPYi-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BI08_QsTC04o57U2SPYi-6" target="BI08_QsTC04o57U2SPYi-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BI08_QsTC04o57U2SPYi-29" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BI08_QsTC04o57U2SPYi-28">
+          <mxGeometry x="-0.7905" y="1" relative="1" as="geometry">
+            <mxPoint x="-29" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BI08_QsTC04o57U2SPYi-6" value="存在检测金具？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="55" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BI08_QsTC04o57U2SPYi-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BI08_QsTC04o57U2SPYi-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BI08_QsTC04o57U2SPYi-8" value="图像融合、对齐" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="70" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BI08_QsTC04o57U2SPYi-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BI08_QsTC04o57U2SPYi-21" target="BI08_QsTC04o57U2SPYi-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BI08_QsTC04o57U2SPYi-21" value="金具红外图像ROI提取" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="75" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BI08_QsTC04o57U2SPYi-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BI08_QsTC04o57U2SPYi-24" target="BI08_QsTC04o57U2SPYi-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BI08_QsTC04o57U2SPYi-24" value="光斑检测和过热分析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="75" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BI08_QsTC04o57U2SPYi-26" value="结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="75" width="70" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
