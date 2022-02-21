@@ -1,1 +1,106 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T05:09:58.107Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" version="16.2.7" etag="IhMl5eE4Oqvc0j_yv4M4" type="github"><diagram id="DQ0fsKWbhlFm-G7QLGyb">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-21T09:35:31.143Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="SuV_mMuhnFmUL7U-Ub2o" version="16.2.7" type="github">
+  <diagram id="DQ0fsKWbhlFm-G7QLGyb" name="Page-1">
+    <mxGraphModel dx="1580" dy="847" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5GYSX9Ccz5oKQchGL3uc-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5GYSX9Ccz5oKQchGL3uc-1" target="5GYSX9Ccz5oKQchGL3uc-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5GYSX9Ccz5oKQchGL3uc-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5GYSX9Ccz5oKQchGL3uc-1" target="5GYSX9Ccz5oKQchGL3uc-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5GYSX9Ccz5oKQchGL3uc-1" value="巡检输电图像" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="8" y="115" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5GYSX9Ccz5oKQchGL3uc-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5GYSX9Ccz5oKQchGL3uc-2" target="5GYSX9Ccz5oKQchGL3uc-70">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="388" y="240" />
+              <mxPoint x="388" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5GYSX9Ccz5oKQchGL3uc-2" value="视觉模型导线检测" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="128" y="210" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5GYSX9Ccz5oKQchGL3uc-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5GYSX9Ccz5oKQchGL3uc-13" target="5GYSX9Ccz5oKQchGL3uc-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5GYSX9Ccz5oKQchGL3uc-13" value="导线实例跟踪" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="528" y="151" width="77.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5GYSX9Ccz5oKQchGL3uc-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.012;entryY=0.541;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5GYSX9Ccz5oKQchGL3uc-22" target="5GYSX9Ccz5oKQchGL3uc-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5GYSX9Ccz5oKQchGL3uc-22" value="间隔棒识别" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="128" y="120" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5GYSX9Ccz5oKQchGL3uc-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5GYSX9Ccz5oKQchGL3uc-34" target="5GYSX9Ccz5oKQchGL3uc-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="378" y="148" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5GYSX9Ccz5oKQchGL3uc-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5GYSX9Ccz5oKQchGL3uc-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="311.55555555555554" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5GYSX9Ccz5oKQchGL3uc-84" value="非初始化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5GYSX9Ccz5oKQchGL3uc-83">
+          <mxGeometry x="-0.284" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5GYSX9Ccz5oKQchGL3uc-34" value="&lt;span&gt;区段跟踪初始化?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265.5" y="99" width="92.5" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="5GYSX9Ccz5oKQchGL3uc-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5GYSX9Ccz5oKQchGL3uc-38" target="5GYSX9Ccz5oKQchGL3uc-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5GYSX9Ccz5oKQchGL3uc-38" value="导线跟踪初始化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="528" y="55" width="77.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5GYSX9Ccz5oKQchGL3uc-58" value="存在" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="215.5" y="130" width="42.5" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="5GYSX9Ccz5oKQchGL3uc-63" value="初始化" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="358" y="115" width="46" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5GYSX9Ccz5oKQchGL3uc-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5GYSX9Ccz5oKQchGL3uc-67" target="5GYSX9Ccz5oKQchGL3uc-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5GYSX9Ccz5oKQchGL3uc-67" value="导线分割" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="408" y="55" width="75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5GYSX9Ccz5oKQchGL3uc-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5GYSX9Ccz5oKQchGL3uc-70" target="5GYSX9Ccz5oKQchGL3uc-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5GYSX9Ccz5oKQchGL3uc-70" value="导线分割" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="408" y="151" width="80" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="5GYSX9Ccz5oKQchGL3uc-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.417;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="5GYSX9Ccz5oKQchGL3uc-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="171" y="210.97" as="sourcePoint" />
+            <mxPoint x="351" y="151.47" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="171" y="190" />
+              <mxPoint x="218" y="190" />
+              <mxPoint x="218" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5GYSX9Ccz5oKQchGL3uc-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5GYSX9Ccz5oKQchGL3uc-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="141.61538461538458" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5GYSX9Ccz5oKQchGL3uc-74" value="导线跟踪失败异常检测" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="111.5" width="77.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5GYSX9Ccz5oKQchGL3uc-79" value="结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="110" width="77.5" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
