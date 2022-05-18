@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T08:58:19.368Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="wlPwqhoVaEkceYNqapEW" version="18.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-18T09:00:03.535Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="3EoIJ95pH9GFrLR8jiuh" version="18.0.6" type="github">
   <diagram id="RlESX1lpq9yqEl1FHID5" name="Page-1">
-    <mxGraphModel dx="1127" dy="163" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1540" dy="387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -41,8 +41,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-60" y="380" />
-              <mxPoint x="-60" y="100" />
-              <mxPoint x="612" y="100" />
+              <mxPoint x="-60" y="110" />
+              <mxPoint x="612" y="110" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -70,13 +70,18 @@
         <mxCell id="PpNR_Pxevp6ndvofiaj3-14" value="算法配置参数数据库" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-165" y="350" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PpNR_Pxevp6ndvofiaj3-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PpNR_Pxevp6ndvofiaj3-17">
+        <mxCell id="PpNR_Pxevp6ndvofiaj3-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PpNR_Pxevp6ndvofiaj3-17">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="980" y="280" as="targetPoint" />
+            <mxPoint x="940" y="280" as="targetPoint" />
             <Array as="points">
               <mxPoint x="890" y="180" />
               <mxPoint x="890" y="280" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PpNR_Pxevp6ndvofiaj3-59" value="断线检测结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];horizontal=0;" vertex="1" connectable="0" parent="PpNR_Pxevp6ndvofiaj3-37">
+          <mxGeometry x="0.031" y="-3" relative="1" as="geometry">
+            <mxPoint y="15" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PpNR_Pxevp6ndvofiaj3-17" value="断线检测" style="swimlane;childLayout=stackLayout;horizontal=1;fillColor=#FF0000;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;strokeColor=default;stackBorder=10;stackSpacing=-12;resizable=1;align=center;points=[];fontColor=#000000;strokeWidth=2;rounded=1;shadow=1;" vertex="1" parent="1">
@@ -118,13 +123,18 @@
         <mxCell id="PpNR_Pxevp6ndvofiaj3-22" value="导线分割" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="290" y="249" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PpNR_Pxevp6ndvofiaj3-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PpNR_Pxevp6ndvofiaj3-24">
+        <mxCell id="PpNR_Pxevp6ndvofiaj3-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PpNR_Pxevp6ndvofiaj3-24">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="980" y="280" as="targetPoint" />
+            <mxPoint x="940" y="280" as="targetPoint" />
             <Array as="points">
               <mxPoint x="890" y="370" />
               <mxPoint x="890" y="280" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PpNR_Pxevp6ndvofiaj3-60" value="导线覆冰检测结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];horizontal=0;" vertex="1" connectable="0" parent="PpNR_Pxevp6ndvofiaj3-38">
+          <mxGeometry x="-0.4562" y="1" relative="1" as="geometry">
+            <mxPoint x="20" y="-26" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PpNR_Pxevp6ndvofiaj3-24" value="覆冰检测" style="swimlane;childLayout=stackLayout;horizontal=1;fillColor=#d5e8d4;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;strokeColor=#82b366;stackBorder=10;stackSpacing=-12;resizable=1;align=center;points=[];strokeWidth=2;rounded=1;shadow=1;startSize=23;" vertex="1" parent="1">
@@ -143,7 +153,12 @@
           <mxGeometry x="274" y="33" width="106" height="57" as="geometry" />
         </mxCell>
         <mxCell id="PpNR_Pxevp6ndvofiaj3-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PpNR_Pxevp6ndvofiaj3-39" target="PpNR_Pxevp6ndvofiaj3-40">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1020" y="205" />
+              <mxPoint x="1040" y="205" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="PpNR_Pxevp6ndvofiaj3-42" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PpNR_Pxevp6ndvofiaj3-41">
           <mxGeometry x="-0.2846" y="1" relative="1" as="geometry">
@@ -159,13 +174,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PpNR_Pxevp6ndvofiaj3-39" value="是否存在缺陷" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;sketch=0;strokeColor=#36393d;strokeWidth=2;fillColor=#cdeb8b;" vertex="1" parent="1">
-          <mxGeometry x="980" y="239" width="80" height="80" as="geometry" />
+          <mxGeometry x="940" y="239" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PpNR_Pxevp6ndvofiaj3-40" value="算法结束" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;strokeColor=#2D7600;strokeWidth=2;fillColor=#60a917;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="220" width="70" height="49" as="geometry" />
+          <mxGeometry x="1060" y="181" width="70" height="49" as="geometry" />
         </mxCell>
         <mxCell id="PpNR_Pxevp6ndvofiaj3-43" value="异常存储" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;strokeColor=#B20000;strokeWidth=2;fillColor=#e51400;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="290" width="70" height="49" as="geometry" />
+          <mxGeometry x="1060" y="319" width="70" height="49" as="geometry" />
         </mxCell>
         <mxCell id="PpNR_Pxevp6ndvofiaj3-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PpNR_Pxevp6ndvofiaj3-50" target="PpNR_Pxevp6ndvofiaj3-22">
           <mxGeometry relative="1" as="geometry" />
