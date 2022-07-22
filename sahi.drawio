@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-22T07:44:16.560Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="WS3vmONeoXoVfbhks_Ya" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-22T07:45:15.517Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="xR_sD4F6SVBD-8W-slER" version="20.1.1" type="github">
   <diagram id="DrnEyP8uzaj-RsVNbWX1" name="Page-1">
     <mxGraphModel dx="716" dy="397" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -154,7 +154,7 @@
         <mxCell id="FuDXW2LtVH0RufSL3Sr8-51" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=11;strokeColor=#3333FF;strokeWidth=1;fillColor=none;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="330" width="430" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="FuDXW2LtVH0RufSL3Sr8-53" value="切片辅助推理方法 Slicing&amp;nbsp; Aided Inference" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontFamily=Times New Roman;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="FuDXW2LtVH0RufSL3Sr8-53" value="切片辅助推理框架 Slicing&amp;nbsp; Aided Inference" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontFamily=Times New Roman;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="73" y="479" width="153.25" height="30" as="geometry" />
         </mxCell>
       </root>
