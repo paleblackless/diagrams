@@ -1,1 +1,87 @@
-<mxfile host="app.diagrams.net" modified="2022-07-29T06:48:31.731Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.2.0" etag="xeR-szaa3HSzliKDYafy" type="github"><diagram id="Hjp0LTMWtPtg9DYxoF_L">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-29T08:09:58.013Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="V3v7Bjp1CqlwNDlcfLFa" version="20.2.0" type="github">
+  <diagram id="Hjp0LTMWtPtg9DYxoF_L" name="第 1 页">
+    <mxGraphModel dx="870" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="y0bbDb1OPeupqZk6Rysb-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="y0bbDb1OPeupqZk6Rysb-1" target="y0bbDb1OPeupqZk6Rysb-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0bbDb1OPeupqZk6Rysb-18" value="frame_index_lists" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y0bbDb1OPeupqZk6Rysb-4">
+          <mxGeometry x="-0.2644" y="-1" relative="1" as="geometry">
+            <mxPoint x="11" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0bbDb1OPeupqZk6Rysb-1" value="提取候选帧集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0bbDb1OPeupqZk6Rysb-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="y0bbDb1OPeupqZk6Rysb-2" target="y0bbDb1OPeupqZk6Rysb-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0bbDb1OPeupqZk6Rysb-2" value="候选帧聚类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="421.43" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0bbDb1OPeupqZk6Rysb-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="y0bbDb1OPeupqZk6Rysb-3" target="y0bbDb1OPeupqZk6Rysb-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0bbDb1OPeupqZk6Rysb-3" value="提取最优关键帧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620.0000000000001" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0bbDb1OPeupqZk6Rysb-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="y0bbDb1OPeupqZk6Rysb-8" target="y0bbDb1OPeupqZk6Rysb-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0bbDb1OPeupqZk6Rysb-8" value="显著性帧计算" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="350" width="150" height="90" as="geometry">
+            <mxRectangle x="240" y="400" width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0bbDb1OPeupqZk6Rysb-10" value="帧间变化（悬停过程过滤）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="y0bbDb1OPeupqZk6Rysb-8">
+          <mxGeometry y="30" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y0bbDb1OPeupqZk6Rysb-11" value="目标检测（非目标过滤）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="y0bbDb1OPeupqZk6Rysb-8">
+          <mxGeometry y="60" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y0bbDb1OPeupqZk6Rysb-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y0bbDb1OPeupqZk6Rysb-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="481.43000000000006" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0bbDb1OPeupqZk6Rysb-14" value="候选帧聚类算法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="421.43" y="365" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0bbDb1OPeupqZk6Rysb-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="y0bbDb1OPeupqZk6Rysb-19" target="y0bbDb1OPeupqZk6Rysb-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0bbDb1OPeupqZk6Rysb-19" value="基于巡检流程的智能抽帧分析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620.0000000000001" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0bbDb1OPeupqZk6Rysb-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="y0bbDb1OPeupqZk6Rysb-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y0bbDb1OPeupqZk6Rysb-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="y0bbDb1OPeupqZk6Rysb-20" target="y0bbDb1OPeupqZk6Rysb-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y0bbDb1OPeupqZk6Rysb-20" value="视频序列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0bbDb1OPeupqZk6Rysb-28" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="200" y="220" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="y0bbDb1OPeupqZk6Rysb-29" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="460" y="220" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="y0bbDb1OPeupqZk6Rysb-30" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="569" y="275" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="y0bbDb1OPeupqZk6Rysb-33" value="视频最优关键帧" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="800" y="260" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y0bbDb1OPeupqZk6Rysb-35" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="760" y="275" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
