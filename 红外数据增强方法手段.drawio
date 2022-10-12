@@ -1,27 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2022-10-12T09:51:01.896Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="vcgERmBOgUu6Zy1p9k5z" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-12T09:53:50.262Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="kccFc25tWOxPRA6E4jMf" version="20.4.0" type="github">
   <diagram id="e6LIr8iYlZ6CpA1TYbUi" name="第 1 页">
-    <mxGraphModel dx="2479" dy="1333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1446" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="BGNOBT85ynpQFOA_O_nM-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BGNOBT85ynpQFOA_O_nM-2" target="BGNOBT85ynpQFOA_O_nM-4">
+        <mxCell id="BGNOBT85ynpQFOA_O_nM-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BGNOBT85ynpQFOA_O_nM-2" target="BGNOBT85ynpQFOA_O_nM-3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="430" y="230" />
-              <mxPoint x="595" y="230" />
+              <mxPoint x="425" y="230" />
+              <mxPoint x="300" y="230" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BGNOBT85ynpQFOA_O_nM-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BGNOBT85ynpQFOA_O_nM-2" target="BGNOBT85ynpQFOA_O_nM-3">
+        <mxCell id="BGNOBT85ynpQFOA_O_nM-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.54;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="224" as="sourcePoint" />
+            <mxPoint x="602.5999999999999" y="251.12" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="430" y="230" />
-              <mxPoint x="255" y="230" />
+              <mxPoint x="425" y="230" />
+              <mxPoint x="603" y="230" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="BGNOBT85ynpQFOA_O_nM-2" value="&lt;h1&gt;热红外图像增强方法&lt;/h1&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="310" y="140" width="240" height="80" as="geometry" />
+          <mxGeometry x="305" y="140" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="BGNOBT85ynpQFOA_O_nM-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BGNOBT85ynpQFOA_O_nM-3" target="BGNOBT85ynpQFOA_O_nM-12">
           <mxGeometry relative="1" as="geometry" />
@@ -36,7 +38,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BGNOBT85ynpQFOA_O_nM-3" value="&lt;h2&gt;传统图像处理&lt;/h2&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="160" y="249" width="190" height="67" as="geometry" />
+          <mxGeometry x="205" y="249" width="190" height="67" as="geometry" />
         </mxCell>
         <mxCell id="BGNOBT85ynpQFOA_O_nM-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BGNOBT85ynpQFOA_O_nM-4" target="BGNOBT85ynpQFOA_O_nM-31">
           <mxGeometry relative="1" as="geometry" />
@@ -48,25 +50,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BGNOBT85ynpQFOA_O_nM-12" value="几何/形态变化" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="49" y="362" width="100" height="60" as="geometry" />
+          <mxGeometry x="94" y="362" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BGNOBT85ynpQFOA_O_nM-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BGNOBT85ynpQFOA_O_nM-13" target="BGNOBT85ynpQFOA_O_nM-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BGNOBT85ynpQFOA_O_nM-13" value="像素变换" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="268" y="362" width="100" height="60" as="geometry" />
+          <mxGeometry x="313" y="362" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BGNOBT85ynpQFOA_O_nM-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BGNOBT85ynpQFOA_O_nM-16" target="BGNOBT85ynpQFOA_O_nM-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BGNOBT85ynpQFOA_O_nM-16" value="信息擦除" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="158" y="362" width="100" height="60" as="geometry" />
+          <mxGeometry x="203" y="362" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BGNOBT85ynpQFOA_O_nM-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BGNOBT85ynpQFOA_O_nM-21" target="BGNOBT85ynpQFOA_O_nM-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BGNOBT85ynpQFOA_O_nM-21" value="图像融合" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="368" y="362" width="100" height="60" as="geometry" />
+          <mxGeometry x="413" y="362" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BGNOBT85ynpQFOA_O_nM-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BGNOBT85ynpQFOA_O_nM-31" target="BGNOBT85ynpQFOA_O_nM-34">
           <mxGeometry relative="1" as="geometry" />
@@ -78,16 +80,16 @@
           <mxGeometry x="555" y="450" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BGNOBT85ynpQFOA_O_nM-36" value="1.混式融合&lt;br&gt;2.先验目标&lt;br&gt;融合" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="378" y="450" width="80" height="60" as="geometry" />
+          <mxGeometry x="423" y="450" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BGNOBT85ynpQFOA_O_nM-38" value="1.噪声添加&lt;br&gt;2.饱和度和对比度调整" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="274" y="450" width="80" height="60" as="geometry" />
+          <mxGeometry x="319" y="450" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BGNOBT85ynpQFOA_O_nM-40" value="1.图像块擦除&lt;br&gt;2.图像块掩码&lt;br&gt;覆盖" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="168" y="450" width="80" height="60" as="geometry" />
+          <mxGeometry x="213" y="450" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BGNOBT85ynpQFOA_O_nM-42" value="1.旋转&lt;br&gt;2.缩放尺度&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="59" y="450" width="80" height="60" as="geometry" />
+          <mxGeometry x="104" y="450" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
