@@ -1,1 +1,179 @@
-<mxfile host="app.diagrams.net" modified="2022-10-25T06:22:13.495Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.5.1" etag="IbmhlmCA5h1Vm_sILg5l" type="github"><diagram id="-uM-l7IFhYapmcr0Qwht">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-25T06:47:30.971Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="7ERHcylqfghxWGzd0E8G" version="20.5.1" type="github">
+  <diagram id="-uM-l7IFhYapmcr0Qwht" name="第 1 页">
+    <mxGraphModel dx="2062" dy="1074" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-55" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;dashed=1;strokeColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="487" y="350" width="243" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-57" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;dashed=1;strokeColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="840" y="250" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-50" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;dashed=1;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="420" y="250" width="420" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="jr2gAzIwB5oixCuGSTnP-1" target="jr2gAzIwB5oixCuGSTnP-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="8" y="280" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jr2gAzIwB5oixCuGSTnP-3" target="jr2gAzIwB5oixCuGSTnP-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-3" value="输入视频流数据" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="158" y="282.5" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jr2gAzIwB5oixCuGSTnP-5" target="jr2gAzIwB5oixCuGSTnP-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-5" value="钻杆目标检测模型" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="432" y="280" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jr2gAzIwB5oixCuGSTnP-7" target="jr2gAzIwB5oixCuGSTnP-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-7" value="目标坐标和特征映射图" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="572" y="280" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jr2gAzIwB5oixCuGSTnP-10" target="jr2gAzIwB5oixCuGSTnP-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-10" value="非极大值抑制方法去除重叠以及置信度的钻杆目标" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="722" y="280" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jr2gAzIwB5oixCuGSTnP-12" target="jr2gAzIwB5oixCuGSTnP-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-12" value="利用滤波算法预测未来帧位置" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="877" y="280" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.016;entryY=0.528;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jr2gAzIwB5oixCuGSTnP-14" target="jr2gAzIwB5oixCuGSTnP-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-14" value="匹配算法进行目标指派" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="877" y="380" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jr2gAzIwB5oixCuGSTnP-16" target="jr2gAzIwB5oixCuGSTnP-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-16" value="钻杆目标累计更新" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="881" y="480" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jr2gAzIwB5oixCuGSTnP-17" target="jr2gAzIwB5oixCuGSTnP-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-32" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jr2gAzIwB5oixCuGSTnP-31">
+          <mxGeometry x="-0.2161" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jr2gAzIwB5oixCuGSTnP-17" target="jr2gAzIwB5oixCuGSTnP-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="622" y="370" />
+              <mxPoint x="932" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-34" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jr2gAzIwB5oixCuGSTnP-33">
+          <mxGeometry x="-0.1531" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-17" value="跟踪成功？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="622" y="460" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jr2gAzIwB5oixCuGSTnP-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="557" y="350" />
+              <mxPoint x="860" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-63" value="&lt;font color=&quot;#3333ff&quot;&gt;跟踪器参数更新&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontColor=#00FFFF;" vertex="1" connectable="0" parent="jr2gAzIwB5oixCuGSTnP-24">
+          <mxGeometry x="0.1783" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-18" value="目标跟踪器参数更新" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="502" y="360" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.455;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jr2gAzIwB5oixCuGSTnP-19" target="jr2gAzIwB5oixCuGSTnP-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;" edge="1" parent="1" source="jr2gAzIwB5oixCuGSTnP-61" target="jr2gAzIwB5oixCuGSTnP-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-19" value="&lt;div&gt;结果再分析算法&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="881" y="580" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jr2gAzIwB5oixCuGSTnP-28" target="jr2gAzIwB5oixCuGSTnP-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-28" value="钻杆重识别模型检验特征向量匹配度" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="722" y="379" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-35" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="300" y="410" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jr2gAzIwB5oixCuGSTnP-38" target="jr2gAzIwB5oixCuGSTnP-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-44" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jr2gAzIwB5oixCuGSTnP-41">
+          <mxGeometry x="-0.1358" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jr2gAzIwB5oixCuGSTnP-38" target="jr2gAzIwB5oixCuGSTnP-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-43" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jr2gAzIwB5oixCuGSTnP-42">
+          <mxGeometry x="-0.2853" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-38" value="视频终止？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="300" y="260" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-49" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;钻杆数目统计返回&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="597" y="630" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-51" value="&lt;font color=&quot;#cc0000&quot;&gt;钻杆目标检测模型流程&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="466" y="245" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-54" value="&lt;font color=&quot;#66ff66&quot;&gt;重识别算法流程&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=16;fontColor=#CC0000;" vertex="1" parent="1">
+          <mxGeometry x="800" y="440" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-58" value="&lt;font color=&quot;#3333ff&quot;&gt;多目标跟踪算法流程&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=16;fontColor=#CC0000;" vertex="1" parent="1">
+          <mxGeometry x="489.5" y="530" width="153" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-59" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;dashed=1;strokeColor=#00FFFF;" vertex="1" parent="1">
+          <mxGeometry x="860" y="480" width="150" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-61" value="&lt;font color=&quot;#00ffff&quot;&gt;有效钻杆统计分析算法流程&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=16;fontColor=#CC0000;" vertex="1" parent="1">
+          <mxGeometry x="877" y="550" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;" edge="1" parent="1" source="jr2gAzIwB5oixCuGSTnP-19" target="jr2gAzIwB5oixCuGSTnP-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="936" y="640" as="sourcePoint" />
+            <mxPoint x="400" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="936" y="660" />
+              <mxPoint x="470" y="660" />
+              <mxPoint x="470" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jr2gAzIwB5oixCuGSTnP-53" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;dashed=1;strokeColor=#00FF00;" vertex="1" parent="1">
+          <mxGeometry x="720" y="370" width="290" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
