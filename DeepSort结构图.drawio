@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-25T09:58:44.200Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="SGwhEBR4miw88S1QbDeu" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-25T10:03:04.183Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="03uwSVT8It51Cw1wFOAd" version="20.5.1" type="github">
   <diagram id="x-YCI8xqHcP7njQyYqwb" name="第 1 页">
     <mxGraphModel dx="573" dy="327" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -61,11 +61,29 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="DL2LRz8JCnyerhkbF10D-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="DL2LRz8JCnyerhkbF10D-16" target="DL2LRz8JCnyerhkbF10D-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DL2LRz8JCnyerhkbF10D-16" value="Track info" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="460" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DL2LRz8JCnyerhkbF10D-20" value="KalmanFilter Predict" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="DL2LRz8JCnyerhkbF10D-20" value="Kalman Filter Parameters" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="270" y="450" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DL2LRz8JCnyerhkbF10D-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="481" y="287" as="sourcePoint" />
+            <mxPoint x="551" y="287" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DL2LRz8JCnyerhkbF10D-22" value="Deleted" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="272" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DL2LRz8JCnyerhkbF10D-23" value="Consecuive hits: tentative-&amp;gt;Confirmed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="530" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DL2LRz8JCnyerhkbF10D-25" value="Kalman Filter Prediction" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="380" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
