@@ -1,1 +1,77 @@
-<mxfile host="app.diagrams.net" modified="2022-10-25T05:50:16.414Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.5.1" etag="dEaMd01NVHWlGcrJm3FH" type="github"><diagram id="dDSrNZbrI0kC922JCSeA">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-25T06:03:22.378Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="jpIdfb3G2pNAMHrFR_ty" version="20.5.1" type="github">
+  <diagram id="dDSrNZbrI0kC922JCSeA" name="第 1 页">
+    <mxGraphModel dx="1422" dy="812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YRWztcfoYVbnM-zKzQWR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YRWztcfoYVbnM-zKzQWR-1" target="YRWztcfoYVbnM-zKzQWR-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YRWztcfoYVbnM-zKzQWR-1" value="生产数据获取" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="331" y="190" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YRWztcfoYVbnM-zKzQWR-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YRWztcfoYVbnM-zKzQWR-2" target="YRWztcfoYVbnM-zKzQWR-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YRWztcfoYVbnM-zKzQWR-2" value="数据集预处理即构建" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="331" y="250" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YRWztcfoYVbnM-zKzQWR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YRWztcfoYVbnM-zKzQWR-4" target="YRWztcfoYVbnM-zKzQWR-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YRWztcfoYVbnM-zKzQWR-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YRWztcfoYVbnM-zKzQWR-4" target="YRWztcfoYVbnM-zKzQWR-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YRWztcfoYVbnM-zKzQWR-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YRWztcfoYVbnM-zKzQWR-4" target="YRWztcfoYVbnM-zKzQWR-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YRWztcfoYVbnM-zKzQWR-4" value="视频或者图像标注" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="331" y="310" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YRWztcfoYVbnM-zKzQWR-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YRWztcfoYVbnM-zKzQWR-6" target="YRWztcfoYVbnM-zKzQWR-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YRWztcfoYVbnM-zKzQWR-6" value="构建目标检测数据集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="390" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YRWztcfoYVbnM-zKzQWR-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YRWztcfoYVbnM-zKzQWR-9" target="YRWztcfoYVbnM-zKzQWR-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YRWztcfoYVbnM-zKzQWR-9" value="构建重识别检测数据集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="390" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YRWztcfoYVbnM-zKzQWR-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YRWztcfoYVbnM-zKzQWR-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="371" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YRWztcfoYVbnM-zKzQWR-11" value="构建多目标跟踪数据集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="331" y="390" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YRWztcfoYVbnM-zKzQWR-28" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.625;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;rounded=0;endArrow=none;endFill=0;" edge="1" parent="1" source="YRWztcfoYVbnM-zKzQWR-13" target="YRWztcfoYVbnM-zKzQWR-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="510" />
+              <mxPoint x="480" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YRWztcfoYVbnM-zKzQWR-13" value="训练钻杆目标检测器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="460" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YRWztcfoYVbnM-zKzQWR-17" value="训练钻杆目标重识别模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="450" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YRWztcfoYVbnM-zKzQWR-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="YRWztcfoYVbnM-zKzQWR-21" target="YRWztcfoYVbnM-zKzQWR-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YRWztcfoYVbnM-zKzQWR-21" value="训练钻杆目标检测器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="331" y="530" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YRWztcfoYVbnM-zKzQWR-29" value="跟踪结果再分析算法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="333" y="600" width="76" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
