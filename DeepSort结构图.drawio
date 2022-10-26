@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T03:33:15.542Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="kF5qNb0dzpS7G743L-Hi" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-26T10:02:11.663Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="RyYkyhCXnfXQIrWGBlc_" version="20.5.1" type="github">
   <diagram id="x-YCI8xqHcP7njQyYqwb" name="第 1 页">
-    <mxGraphModel dx="1973" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1991" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -102,8 +102,11 @@
         <mxCell id="DL2LRz8JCnyerhkbF10D-89" value="IOU&lt;br&gt;Match" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="326" y="610.25" width="80" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="DL2LRz8JCnyerhkbF10D-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="DL2LRz8JCnyerhkbF10D-91" target="DL2LRz8JCnyerhkbF10D-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DL2LRz8JCnyerhkbF10D-91" value="Detector" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="91" y="609" width="70" height="51.25" as="geometry" />
+          <mxGeometry x="-104" y="609" width="70" height="51.25" as="geometry" />
         </mxCell>
         <mxCell id="DL2LRz8JCnyerhkbF10D-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="DL2LRz8JCnyerhkbF10D-93" target="DL2LRz8JCnyerhkbF10D-100">
           <mxGeometry relative="1" as="geometry">
@@ -174,18 +177,18 @@
         </mxCell>
         <mxCell id="DL2LRz8JCnyerhkbF10D-106" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontColor=#E1D5E7;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="31" y="635.11" as="sourcePoint" />
-            <mxPoint x="91" y="635.36" as="targetPoint" />
+            <mxPoint x="-164" y="635.11" as="sourcePoint" />
+            <mxPoint x="-104" y="635.36" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DL2LRz8JCnyerhkbF10D-107" value="&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;Frames&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#E1D5E7;" vertex="1" parent="1">
-          <mxGeometry x="25" y="609" width="50" height="22" as="geometry" />
+          <mxGeometry x="-170" y="609" width="50" height="22" as="geometry" />
         </mxCell>
         <mxCell id="DL2LRz8JCnyerhkbF10D-108" value="缺点：遮挡问题发生，丢失自己ID标识号" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="596" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DL2LRz8JCnyerhkbF10D-109" value="Match&lt;br&gt;Cascade" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="191" y="610.25" width="80" height="50" as="geometry" />
+          <mxGeometry x="-4" y="610.25" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DL2LRz8JCnyerhkbF10D-110" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;1.Re-ID提取更加稳定有效的特征向量&lt;br&gt;2.数据关联问题如何有效解决？&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="620" y="744" width="120" height="60" as="geometry" />
@@ -203,6 +206,45 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="190" y="540" as="sourcePoint" />
             <mxPoint x="130" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DL2LRz8JCnyerhkbF10D-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="76" y="637.3000000000002" as="sourcePoint" />
+            <mxPoint x="106" y="637.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DL2LRz8JCnyerhkbF10D-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0000;" edge="1" parent="1" source="DL2LRz8JCnyerhkbF10D-118" target="DL2LRz8JCnyerhkbF10D-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DL2LRz8JCnyerhkbF10D-118" value="Unmatched Detections" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="105" y="616.25" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DL2LRz8JCnyerhkbF10D-119" value="&lt;font color=&quot;#ff0000&quot;&gt;Matched Tracks&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="106" y="671" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DL2LRz8JCnyerhkbF10D-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="DL2LRz8JCnyerhkbF10D-120" target="DL2LRz8JCnyerhkbF10D-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DL2LRz8JCnyerhkbF10D-120" value="&lt;font color=&quot;#e1d5e7&quot;&gt;Unmatched Tracks&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="106" y="571" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DL2LRz8JCnyerhkbF10D-121" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="86" y="637" as="sourcePoint" />
+            <mxPoint x="106" y="591" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="86" y="591" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DL2LRz8JCnyerhkbF10D-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="86" y="637" as="sourcePoint" />
+            <mxPoint x="106" y="687" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="86" y="687" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
