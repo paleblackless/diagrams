@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-27T09:48:50.238Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="B8J8inG3x8iLVEdS67DW" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-27T10:04:19.238Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="lwybcpxvQFRBjJq9e6P7" version="20.5.1" type="github">
   <diagram id="x-YCI8xqHcP7njQyYqwb" name="第 1 页">
-    <mxGraphModel dx="2005" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -326,7 +326,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cpEhXK2KLHgFvFvhDlye-35" value="马氏距离：&lt;font color=&quot;#009900&quot;&gt;差异度度量方法中一种距离度量方法，更加符合数据特征以及实际意义&lt;/font&gt;&lt;br&gt;余弦距离：&lt;font color=&quot;#009900&quot;&gt;相似度度量方法，按成不同维度之间的差异性。&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;pointerEvents=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#0000CC;" vertex="1" parent="1">
-          <mxGeometry x="-390" y="400" width="220" height="110" as="geometry" />
+          <mxGeometry x="-304" y="418" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cpEhXK2KLHgFvFvhDlye-36" value="匀速模型和线性可观模型" style="rounded=0;whiteSpace=wrap;html=1;pointerEvents=1;strokeColor=default;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#009900;fillColor=none;dashed=1;dashPattern=1 2;" vertex="1" parent="1">
+          <mxGeometry x="-168" y="715" width="138" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
