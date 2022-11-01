@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T03:32:43.813Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="bFKUhU7Rm-QgF_tjD5Cc" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-01T05:25:35.009Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="imxxEknZ9EL-bfTc0gq1" version="20.5.1" type="github">
   <diagram id="x-YCI8xqHcP7njQyYqwb" name="第 1 页">
     <mxGraphModel dx="2300" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -336,6 +336,9 @@
         </mxCell>
         <mxCell id="eMGYTiflYEe_Liea8q8_-1" value="检测框误差较大，误检较多，轨迹产生审核较多" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-20" y="890" width="134" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-3" value="NMS系统计算" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 4;strokeColor=#FF00FF;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="560.5" width="90" height="61" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
