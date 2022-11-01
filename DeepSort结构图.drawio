@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T05:25:35.009Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="imxxEknZ9EL-bfTc0gq1" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-01T06:47:41.976Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="R8_edPYA_JFfcVgjYRPX" version="20.5.1" type="github">
   <diagram id="x-YCI8xqHcP7njQyYqwb" name="第 1 页">
-    <mxGraphModel dx="2300" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1157" dy="188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -179,10 +179,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DL2LRz8JCnyerhkbF10D-107" value="&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;Frames&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#E1D5E7;" parent="1" vertex="1">
-          <mxGeometry x="-234" y="609" width="50" height="22" as="geometry" />
+          <mxGeometry x="-230" y="604" width="50" height="22" as="geometry" />
         </mxCell>
         <mxCell id="DL2LRz8JCnyerhkbF10D-108" value="缺点：遮挡问题发生，丢失自己ID标识号" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="560" y="278" width="120" height="60" as="geometry" />
+          <mxGeometry x="330" y="412.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DL2LRz8JCnyerhkbF10D-109" value="Match&lt;br&gt;Cascade" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-68" y="610.25" width="80" height="50" as="geometry" />
@@ -319,8 +319,8 @@
         <mxCell id="cpEhXK2KLHgFvFvhDlye-31" value="" style="rounded=1;whiteSpace=wrap;html=1;pointerEvents=1;strokeColor=#66FFB3;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#0000CC;fillColor=none;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
           <mxGeometry x="-84" y="520" width="224" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="cpEhXK2KLHgFvFvhDlye-32" value="实质问题：优化数据顺序完成不同优先级别的匹配策略" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;pointerEvents=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#0000CC;" parent="1" vertex="1">
-          <mxGeometry x="-60" y="531" width="150" height="40" as="geometry" />
+        <mxCell id="cpEhXK2KLHgFvFvhDlye-32" value="实质问题：1.优化数据顺序完成不同优先级别的匹配策略；2. 减少目标遮挡，后再出现目标的ID-Switch次数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;pointerEvents=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#0000CC;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="472.5" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cpEhXK2KLHgFvFvhDlye-33" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#0000CC;" parent="1" source="cpEhXK2KLHgFvFvhDlye-31" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -328,17 +328,171 @@
             <mxPoint x="-200" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cpEhXK2KLHgFvFvhDlye-35" value="特征提取以及相似度估计：&lt;br&gt;运动模型-马氏距离：&lt;font color=&quot;#009900&quot;&gt;差异度度量方法中一种距离度量方法，更加符合数据特征以及实际意义，相机运动速度过快，&lt;b&gt;Lambda&lt;/b&gt;设置为0&lt;/font&gt;&lt;br&gt;外观模型-余弦距离：&lt;font color=&quot;#009900&quot;&gt;相似度度量方法，按成不同维度之间的差异性-&amp;gt; Re-ID&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;pointerEvents=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#0000CC;" parent="1" vertex="1">
+        <mxCell id="cpEhXK2KLHgFvFvhDlye-35" value="特征提取以及相似度估计：&lt;br&gt;运动模型-马氏距离：&lt;font color=&quot;#009900&quot;&gt;差异度度量方法中一种距离度量方法，更加符合数据特征以及实际意义，相机运动速度过快，&lt;b&gt;Lambda&lt;/b&gt;设置为0&lt;/font&gt;&lt;br&gt;外观模型-余弦距离：&lt;font color=&quot;#009900&quot;&gt;相似度度量方法，按成不同维度之间的差异性-&amp;gt; Re-ID，其中使用budget参数控制维护ReID特征列表长度，&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;pointerEvents=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#0000CC;" parent="1" vertex="1">
           <mxGeometry x="-470" y="408" width="277" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="cpEhXK2KLHgFvFvhDlye-36" value="匀速模型和线性可观模型" style="rounded=0;whiteSpace=wrap;html=1;pointerEvents=1;strokeColor=default;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#009900;fillColor=none;dashed=1;dashPattern=1 2;" parent="1" vertex="1">
-          <mxGeometry x="-168" y="715" width="138" height="35" as="geometry" />
+        <mxCell id="cpEhXK2KLHgFvFvhDlye-36" value="匀速模型以及进阶的变速线性可观模型" style="rounded=0;whiteSpace=wrap;html=1;pointerEvents=1;strokeColor=default;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#009900;fillColor=none;dashed=1;dashPattern=1 2;" parent="1" vertex="1">
+          <mxGeometry x="-158" y="725" width="138" height="35" as="geometry" />
         </mxCell>
         <mxCell id="eMGYTiflYEe_Liea8q8_-1" value="检测框误差较大，误检较多，轨迹产生审核较多" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-20" y="890" width="134" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eMGYTiflYEe_Liea8q8_-3" value="NMS系统计算" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 4;strokeColor=#FF00FF;" vertex="1" parent="1">
           <mxGeometry x="-120" y="560.5" width="90" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;减少ID-Switch次数&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+          <mxGeometry x="230" y="482.5" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="440" as="sourcePoint" />
+            <mxPoint x="300" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-7" value="Tentative不确定态" style="ellipse;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;strokeColor=#FF00FF;fontSize=14;fontColor=#0000CC;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="338" width="75" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-8" value="删除态" style="ellipse;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;strokeColor=#FF00FF;fontSize=14;fontColor=#0000CC;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="461" y="429.5" width="75" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-9" value="确定态" style="ellipse;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;strokeColor=#FF00FF;fontSize=14;fontColor=#0000CC;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="710" y="459.5" width="75" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-10" value="" style="curved=1;endArrow=none;html=1;rounded=0;fontSize=14;fontColor=#0000CC;exitX=0.586;exitY=0.014;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1" source="eMGYTiflYEe_Liea8q8_-8" target="eMGYTiflYEe_Liea8q8_-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="532.5" y="418" as="sourcePoint" />
+            <mxPoint x="582.5" y="368" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="582.5" y="418" />
+              <mxPoint x="532.5" y="368" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-11" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=14;fontColor=#0000CC;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.552;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eMGYTiflYEe_Liea8q8_-7" target="eMGYTiflYEe_Liea8q8_-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="615" y="486.5" as="sourcePoint" />
+            <mxPoint x="665" y="436.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="410" />
+              <mxPoint x="700" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-12" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=14;fontColor=#0000CC;exitX=-0.021;exitY=0.454;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="eMGYTiflYEe_Liea8q8_-9" target="eMGYTiflYEe_Liea8q8_-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="646.0548119394305" y="460.0012198007376" as="sourcePoint" />
+            <mxPoint x="660" y="496.29" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="450" />
+              <mxPoint x="610" y="496.29" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-14" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font color=&quot;#00cccc&quot;&gt;time_update&amp;gt;max_age&amp;nbsp;&lt;br&gt;未匹配次数过多导致目标丢失&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 4;fontSize=14;fontColor=#0000CC;" vertex="1" parent="1">
+          <mxGeometry x="590" y="471" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-16" value="&lt;font color=&quot;#00cccc&quot;&gt;hit&amp;gt;xx times,轨迹已连续性匹配上&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 4;fontSize=14;fontColor=#33FF33;" vertex="1" parent="1">
+          <mxGeometry x="705" y="391" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-17" value="为匹配任何detection目标" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 4;fontSize=14;fontColor=#00CCCC;rotation=-30;" vertex="1" parent="1">
+          <mxGeometry x="518" y="361" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-18" value="&lt;font color=&quot;#cc0066&quot;&gt;DeepSort&lt;br&gt;Track管理机制&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 4;fontSize=14;fontColor=#00CCCC;" vertex="1" parent="1">
+          <mxGeometry x="570" y="418" width="108" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-21" value="&lt;a href=&quot;https://github.com/pprp/deep_sort_yolov3_pytorch&quot;&gt;DeepSort流程实现&lt;/a&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 4;fontSize=14;fontColor=#CC0066;" vertex="1" parent="1">
+          <mxGeometry x="140" y="750" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-22" value="&lt;pre style=&quot;margin-top: 0px; margin-bottom: 0px; padding: calc(0.888889em); font-size: 0.9em; word-break: initial; overflow-wrap: initial; overflow: auto; background: rgb(246, 246, 246); border-radius: 4px; text-align: start;&quot;&gt;&lt;code style=&quot;margin: 0px; padding: 0px; border-radius: 0px; font-family: Menlo, Monaco, Consolas, &amp;quot;Andale Mono&amp;quot;, &amp;quot;lucida console&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: inherit; background-color: inherit;&quot; class=&quot;language-text&quot;&gt;&lt;font color=&quot;#006633&quot;&gt;对级联匹配中还没有匹配成功&lt;br&gt;的目标再进行IoU匹配&lt;/font&gt;&lt;/code&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 4;fontSize=14;fontColor=#CC0066;" vertex="1" parent="1">
+          <mxGeometry x="314.5" y="541" width="145.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-23" value="基于MIN-IOU-COST 计算方法重新未匹配成功的目标进行IOU匹配计算任务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 4;fontSize=14;fontColor=#006633;" vertex="1" parent="1">
+          <mxGeometry x="240" y="702.5" width="186" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-25" value="MD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 4;fontSize=14;fontColor=#006633;" vertex="1" parent="1">
+          <mxGeometry x="-431" y="551" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-26" value="CD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 4;fontSize=14;fontColor=#006633;" vertex="1" parent="1">
+          <mxGeometry x="-431" y="595.25" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-27" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;strokeColor=#000066;fontSize=14;fontColor=#006633;fillColor=none;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="-401" y="561" width="20" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#006633;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="eMGYTiflYEe_Liea8q8_-28" target="eMGYTiflYEe_Liea8q8_-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-28" value="Cost Matrix" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 4;fontSize=14;fontColor=#006633;" vertex="1" parent="1">
+          <mxGeometry x="-381" y="573" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;fontColor=#006633;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=1.006;entryY=0.386;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eMGYTiflYEe_Liea8q8_-29" target="eMGYTiflYEe_Liea8q8_-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-311" y="580.9540229885058" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-29" value="Cost Matrix" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 4;fontSize=14;fontColor=#006633;" vertex="1" parent="1">
+          <mxGeometry x="-291" y="571" width="48.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-32" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Gate threshold&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 4;fontSize=14;fontColor=#006633;" vertex="1" parent="1">
+          <mxGeometry x="-225" y="544.75" width="84" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-33" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Max distance&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 4;fontSize=14;fontColor=#006633;" vertex="1" parent="1">
+          <mxGeometry x="-225" y="580" width="84" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-34" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;strokeColor=#000066;fontSize=14;fontColor=#006633;fillColor=none;rotation=1;" vertex="1" parent="1">
+          <mxGeometry x="-245" y="555" width="20" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#006633;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="eMGYTiflYEe_Liea8q8_-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-500" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-301" y="650" />
+              <mxPoint x="-301" y="710" />
+              <mxPoint x="-530" y="710" />
+              <mxPoint x="-530" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-35" value="Hunfarian algorithm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 4;fontSize=14;fontColor=#006633;" vertex="1" parent="1">
+          <mxGeometry x="-381" y="640.25" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#006633;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="eMGYTiflYEe_Liea8q8_-37" target="eMGYTiflYEe_Liea8q8_-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-401" y="632" />
+              <mxPoint x="-401" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;fontColor=#006633;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="eMGYTiflYEe_Liea8q8_-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-500" y="659" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-500" y="632" />
+              <mxPoint x="-500" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-37" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Dets&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 4;fontSize=14;fontColor=#006633;" vertex="1" parent="1">
+          <mxGeometry x="-461" y="621.5" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#006633;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-501" y="660" as="sourcePoint" />
+            <mxPoint x="-382" y="650.25" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-401" y="660" />
+              <mxPoint x="-401" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-43" value="&lt;font color=&quot;#cc0000&quot;&gt;Missing age+=1 Until max_age&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#006633;" vertex="1" parent="1">
+          <mxGeometry x="-446.5" y="695" width="111" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-44" value="&lt;span style=&quot;color: rgb(204, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;missing_age=0&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=12;fontColor=#CC0000;" vertex="1" parent="1">
+          <mxGeometry x="-491" y="655.25" width="81" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-45" value="&lt;font color=&quot;#33ff33&quot;&gt;Confirm Tracks&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#CC0000;" vertex="1" parent="1">
+          <mxGeometry x="-491" y="648" width="81" height="16" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
