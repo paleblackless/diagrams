@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T03:11:13.723Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="A6Zr0D7mZuBxZ5sn-7Dx" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-01T03:32:30.269Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="IQ65kZctbmdYSa7BK_Xc" version="20.5.1" type="github">
   <diagram id="x-YCI8xqHcP7njQyYqwb" name="第 1 页">
-    <mxGraphModel dx="2545" dy="981" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1686" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -123,7 +123,7 @@
         <mxCell id="DL2LRz8JCnyerhkbF10D-93" value="Unmatched Detections" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="438" y="620.25" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cpEhXK2KLHgFvFvhDlye-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="DL2LRz8JCnyerhkbF10D-95" target="DL2LRz8JCnyerhkbF10D-100">
+        <mxCell id="cpEhXK2KLHgFvFvhDlye-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="DL2LRz8JCnyerhkbF10D-95" target="DL2LRz8JCnyerhkbF10D-100" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-340" y="770" as="targetPoint" />
             <Array as="points">
@@ -157,7 +157,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cpEhXK2KLHgFvFvhDlye-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DL2LRz8JCnyerhkbF10D-100" target="cpEhXK2KLHgFvFvhDlye-5">
+        <mxCell id="cpEhXK2KLHgFvFvhDlye-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DL2LRz8JCnyerhkbF10D-100" target="cpEhXK2KLHgFvFvhDlye-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DL2LRz8JCnyerhkbF10D-100" value="Tracks" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
@@ -165,6 +165,9 @@
         </mxCell>
         <mxCell id="DL2LRz8JCnyerhkbF10D-101" value="Kalman Filter Update" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="59" y="805" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DL2LRz8JCnyerhkbF10D-104" target="eMGYTiflYEe_Liea8q8_-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DL2LRz8JCnyerhkbF10D-104" value="Consecuive&amp;nbsp; 3 hits: Unconfirmed-&amp;gt;Confirmed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-98" y="829" width="288" height="30" as="geometry" />
@@ -184,7 +187,7 @@
         <mxCell id="DL2LRz8JCnyerhkbF10D-109" value="Match&lt;br&gt;Cascade" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-68" y="610.25" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="DL2LRz8JCnyerhkbF10D-110" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;1.Re-ID提取更加稳定有效的特征向量&lt;br&gt;2.数据关联问题如何有效解决？&lt;br&gt;3.轨迹评分机制以及预测弥补漏检策略。&lt;br&gt;4.跟踪的运动模型不一定是恒定模型&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+        <mxCell id="DL2LRz8JCnyerhkbF10D-110" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;1.Re-ID提取更加稳定有效的特征向量&lt;br&gt;2.数据关联问题如何有效解决？&lt;br&gt;3.引进轨迹评分机制，使用跟踪越久的轨迹预测框结果弥补+检测框位置NMS，最终实现漏检策略。&lt;br&gt;4.跟踪的运动模型不一定是恒定模型&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="620" y="744" width="150" height="136" as="geometry" />
         </mxCell>
         <mxCell id="DL2LRz8JCnyerhkbF10D-111" value="&lt;span style=&quot;color: rgb(18, 18, 18); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: medium; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;闭环反馈：轨迹卡尔曼滤波&lt;/span&gt;&lt;span style=&quot;font-weight: 600; font-synthesis: style; color: rgb(18, 18, 18); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: medium; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;预测--&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(18, 18, 18); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: medium; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;使用&lt;/span&gt;&lt;span style=&quot;font-weight: 600; font-synthesis: style; color: rgb(18, 18, 18); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: medium; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;匈牙利算法&lt;/span&gt;&lt;span style=&quot;color: rgb(18, 18, 18); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: medium; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;将预测后的tracks和当前帧中的detecions进行匹配(&lt;/span&gt;&lt;span style=&quot;font-weight: 600; font-synthesis: style; color: rgb(18, 18, 18); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: medium; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;IOU匹配）--&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(18, 18, 18); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: medium; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;卡尔曼滤波&lt;/span&gt;&lt;span style=&quot;font-weight: 600; font-synthesis: style; color: rgb(18, 18, 18); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: medium; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;更新&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#FF3333;gradientColor=none;" parent="1" vertex="1">
@@ -214,7 +217,7 @@
         <mxCell id="DL2LRz8JCnyerhkbF10D-118" value="Unmatched Detections" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="44" y="615.25" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cpEhXK2KLHgFvFvhDlye-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1">
+        <mxCell id="cpEhXK2KLHgFvFvhDlye-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-339" y="760" as="targetPoint" />
             <mxPoint x="72.00268096514765" y="705" as="sourcePoint" />
@@ -251,85 +254,88 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cpEhXK2KLHgFvFvhDlye-5" value="Kalman Filter Prediction" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cpEhXK2KLHgFvFvhDlye-5" value="Kalman Filter Prediction" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-274" y="719.25" width="82" height="51.5" as="geometry" />
         </mxCell>
-        <mxCell id="cpEhXK2KLHgFvFvhDlye-8" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="cpEhXK2KLHgFvFvhDlye-8" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
           <mxGeometry x="-192" y="702.5" width="32" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="cpEhXK2KLHgFvFvhDlye-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.46;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="cpEhXK2KLHgFvFvhDlye-9" target="DL2LRz8JCnyerhkbF10D-109">
+        <mxCell id="cpEhXK2KLHgFvFvhDlye-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.46;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="cpEhXK2KLHgFvFvhDlye-9" target="DL2LRz8JCnyerhkbF10D-109" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cpEhXK2KLHgFvFvhDlye-9" value="Confirmed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;pointerEvents=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="cpEhXK2KLHgFvFvhDlye-9" value="Confirmed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;pointerEvents=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="-158" y="689" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cpEhXK2KLHgFvFvhDlye-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="cpEhXK2KLHgFvFvhDlye-10" target="DL2LRz8JCnyerhkbF10D-89">
+        <mxCell id="cpEhXK2KLHgFvFvhDlye-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="cpEhXK2KLHgFvFvhDlye-10" target="DL2LRz8JCnyerhkbF10D-89" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cpEhXK2KLHgFvFvhDlye-10" value="UnConfirmed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;pointerEvents=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="cpEhXK2KLHgFvFvhDlye-10" value="UnConfirmed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;pointerEvents=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="-150" y="770.75" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cpEhXK2KLHgFvFvhDlye-15" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="cpEhXK2KLHgFvFvhDlye-15" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
           <mxGeometry x="518" y="530" width="32" height="97.5" as="geometry" />
         </mxCell>
-        <mxCell id="cpEhXK2KLHgFvFvhDlye-16" value="Confirmed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;pointerEvents=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="cpEhXK2KLHgFvFvhDlye-16" value="Confirmed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;pointerEvents=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="560" y="611" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cpEhXK2KLHgFvFvhDlye-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="cpEhXK2KLHgFvFvhDlye-17" target="cpEhXK2KLHgFvFvhDlye-21">
+        <mxCell id="cpEhXK2KLHgFvFvhDlye-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="cpEhXK2KLHgFvFvhDlye-17" target="cpEhXK2KLHgFvFvhDlye-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cpEhXK2KLHgFvFvhDlye-17" value="UnConfirmed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;pointerEvents=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="cpEhXK2KLHgFvFvhDlye-17" value="UnConfirmed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;pointerEvents=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="560" y="512.5" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cpEhXK2KLHgFvFvhDlye-18" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="cpEhXK2KLHgFvFvhDlye-18" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
           <mxGeometry x="630" y="580" width="32" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="cpEhXK2KLHgFvFvhDlye-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="cpEhXK2KLHgFvFvhDlye-19" target="cpEhXK2KLHgFvFvhDlye-21">
+        <mxCell id="cpEhXK2KLHgFvFvhDlye-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="cpEhXK2KLHgFvFvhDlye-19" target="cpEhXK2KLHgFvFvhDlye-21" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="695" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cpEhXK2KLHgFvFvhDlye-19" value="&amp;gt;max_age=30" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;pointerEvents=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="cpEhXK2KLHgFvFvhDlye-19" value="&amp;gt;missing_age=30" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;pointerEvents=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="665" y="569" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cpEhXK2KLHgFvFvhDlye-20" value="&amp;lt;max_age=30" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;pointerEvents=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="cpEhXK2KLHgFvFvhDlye-20" value="&amp;lt;missing_age=30" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;pointerEvents=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="665" y="641" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cpEhXK2KLHgFvFvhDlye-21" value="Delete" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;pointerEvents=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="cpEhXK2KLHgFvFvhDlye-21" value="Delete" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;pointerEvents=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="665" y="512.5" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cpEhXK2KLHgFvFvhDlye-26" value="&lt;font color=&quot;#99ff33&quot;&gt;New Tracks Unconfirmed&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;pointerEvents=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="cpEhXK2KLHgFvFvhDlye-26" value="&lt;font color=&quot;#99ff33&quot;&gt;New Tracks Unconfirmed&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;pointerEvents=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="536" y="714" width="94" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cpEhXK2KLHgFvFvhDlye-27" value="&lt;font color=&quot;#0000cc&quot;&gt;轨迹删除序列状态&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;pointerEvents=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#99FF33;" vertex="1" parent="1">
+        <mxCell id="cpEhXK2KLHgFvFvhDlye-27" value="&lt;font color=&quot;#0000cc&quot;&gt;轨迹删除序列状态&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;pointerEvents=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#99FF33;" parent="1" vertex="1">
           <mxGeometry x="560" y="569" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cpEhXK2KLHgFvFvhDlye-28" value="数据级联：过滤检测结果与已跟踪对象匹配，后与丢失对象匹配。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;pointerEvents=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#0000CC;" vertex="1" parent="1">
-          <mxGeometry x="134.5" y="649" width="151" height="40" as="geometry" />
+        <mxCell id="cpEhXK2KLHgFvFvhDlye-28" value="数据级联：过滤检测结果与已跟踪对象匹配，后与丢失对象匹配。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;pointerEvents=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#0000CC;" parent="1" vertex="1">
+          <mxGeometry x="140" y="641" width="185.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cpEhXK2KLHgFvFvhDlye-29" value="&lt;span style=&quot;text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;好几帧都没匹配上的跟踪器&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;pointerEvents=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#0000CC;" vertex="1" parent="1">
+        <mxCell id="cpEhXK2KLHgFvFvhDlye-29" value="&lt;span style=&quot;text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;好几帧Detector都没匹配上的跟踪器&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;pointerEvents=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#0000CC;" parent="1" vertex="1">
           <mxGeometry x="119.5" y="563.75" width="195" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cpEhXK2KLHgFvFvhDlye-30" value="崭新的目标单元" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;pointerEvents=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#0000CC;" vertex="1" parent="1">
-          <mxGeometry x="164" y="605" width="106" height="30" as="geometry" />
+        <mxCell id="cpEhXK2KLHgFvFvhDlye-30" value="崭新的目标检测单元" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;pointerEvents=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#0000CC;" parent="1" vertex="1">
+          <mxGeometry x="164" y="605" width="126" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cpEhXK2KLHgFvFvhDlye-31" value="" style="rounded=1;whiteSpace=wrap;html=1;pointerEvents=1;strokeColor=#66FFB3;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#0000CC;fillColor=none;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
-          <mxGeometry x="-84" y="504" width="224" height="216" as="geometry" />
+        <mxCell id="cpEhXK2KLHgFvFvhDlye-31" value="" style="rounded=1;whiteSpace=wrap;html=1;pointerEvents=1;strokeColor=#66FFB3;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#0000CC;fillColor=none;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
+          <mxGeometry x="-84" y="520" width="224" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="cpEhXK2KLHgFvFvhDlye-32" value="实质问题：优化数据顺序完成不同优先级别的匹配策略" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;pointerEvents=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#0000CC;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="530" width="130" height="30" as="geometry" />
+        <mxCell id="cpEhXK2KLHgFvFvhDlye-32" value="实质问题：优化数据顺序完成不同优先级别的匹配策略" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;pointerEvents=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#0000CC;" parent="1" vertex="1">
+          <mxGeometry x="-60" y="531" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cpEhXK2KLHgFvFvhDlye-33" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#0000CC;" edge="1" parent="1" source="cpEhXK2KLHgFvFvhDlye-31">
+        <mxCell id="cpEhXK2KLHgFvFvhDlye-33" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#0000CC;" parent="1" source="cpEhXK2KLHgFvFvhDlye-31" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-120" y="580" as="sourcePoint" />
             <mxPoint x="-200" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cpEhXK2KLHgFvFvhDlye-35" value="马氏距离：&lt;font color=&quot;#009900&quot;&gt;差异度度量方法中一种距离度量方法，更加符合数据特征以及实际意义&lt;/font&gt;&lt;br&gt;余弦距离：&lt;font color=&quot;#009900&quot;&gt;相似度度量方法，按成不同维度之间的差异性。&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;pointerEvents=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#0000CC;" vertex="1" parent="1">
-          <mxGeometry x="-304" y="418" width="220" height="110" as="geometry" />
+        <mxCell id="cpEhXK2KLHgFvFvhDlye-35" value="特征提取以及相似度估计：&lt;br&gt;运动模型-马氏距离：&lt;font color=&quot;#009900&quot;&gt;差异度度量方法中一种距离度量方法，更加符合数据特征以及实际意义，相机运动速度过快，&lt;b&gt;Lambda&lt;/b&gt;设置为0&lt;/font&gt;&lt;br&gt;外观模型-余弦距离：&lt;font color=&quot;#009900&quot;&gt;相似度度量方法，按成不同维度之间的差异性-&amp;gt; Re-ID&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;pointerEvents=1;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#0000CC;" parent="1" vertex="1">
+          <mxGeometry x="-470" y="408" width="277" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="cpEhXK2KLHgFvFvhDlye-36" value="匀速模型和线性可观模型" style="rounded=0;whiteSpace=wrap;html=1;pointerEvents=1;strokeColor=default;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#009900;fillColor=none;dashed=1;dashPattern=1 2;" vertex="1" parent="1">
+        <mxCell id="cpEhXK2KLHgFvFvhDlye-36" value="匀速模型和线性可观模型" style="rounded=0;whiteSpace=wrap;html=1;pointerEvents=1;strokeColor=default;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#009900;fillColor=none;dashed=1;dashPattern=1 2;" parent="1" vertex="1">
           <mxGeometry x="-168" y="715" width="138" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="eMGYTiflYEe_Liea8q8_-1" value="检测框误差较大，误检较多，轨迹产生审核较多" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="890" width="134" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
