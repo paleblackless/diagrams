@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-08T09:30:58.536Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="VpruW_l5kfIy0kZdMekC" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-09T01:24:14.134Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="bfuDOpx-dFXm8buJvMgF" type="github">
   <diagram id="fFCjzXycdMlGCBuikqNn" name="第 1 页">
-    <mxGraphModel dx="746" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="778" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,7 +25,7 @@
           <mxGeometry x="300" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uq-xYKgkHuC4XFjGFnDX-8" value="钻杆技术方法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="300" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uq-xYKgkHuC4XFjGFnDX-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;endArrow=block;endFill=0;" edge="1" parent="1" source="uq-xYKgkHuC4XFjGFnDX-9" target="uq-xYKgkHuC4XFjGFnDX-1">
           <mxGeometry relative="1" as="geometry" />
@@ -38,6 +38,48 @@
         </mxCell>
         <mxCell id="uq-xYKgkHuC4XFjGFnDX-12" value="&lt;b&gt;图像去噪、基于Retinx模型的图像增强手段&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="480" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uq-xYKgkHuC4XFjGFnDX-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;endArrow=block;endFill=0;" edge="1" parent="1" source="uq-xYKgkHuC4XFjGFnDX-14" target="uq-xYKgkHuC4XFjGFnDX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uq-xYKgkHuC4XFjGFnDX-14" value="&lt;b&gt;预标注方法（目标框&amp;amp;&amp;amp;目标物锚点）&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="110" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uq-xYKgkHuC4XFjGFnDX-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;endArrow=block;endFill=0;" edge="1" parent="1" source="uq-xYKgkHuC4XFjGFnDX-16" target="uq-xYKgkHuC4XFjGFnDX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uq-xYKgkHuC4XFjGFnDX-16" value="基于多目标跟踪算法逐帧检测钻杆目标" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="480" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uq-xYKgkHuC4XFjGFnDX-18" value="offline" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="363" y="180" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uq-xYKgkHuC4XFjGFnDX-19" value="online" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="310" y="180" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uq-xYKgkHuC4XFjGFnDX-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;endArrow=block;endFill=0;" edge="1" parent="1" source="uq-xYKgkHuC4XFjGFnDX-21" target="uq-xYKgkHuC4XFjGFnDX-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uq-xYKgkHuC4XFjGFnDX-21" value="&lt;b&gt;检测-重识别-轨迹&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="650" y="315" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uq-xYKgkHuC4XFjGFnDX-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;endArrow=block;endFill=0;" edge="1" parent="1" source="uq-xYKgkHuC4XFjGFnDX-23" target="uq-xYKgkHuC4XFjGFnDX-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uq-xYKgkHuC4XFjGFnDX-23" value="记录目标可靠位置的偏移量&amp;amp;&amp;amp;分析位移量规律" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uq-xYKgkHuC4XFjGFnDX-25" value="way1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="140" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uq-xYKgkHuC4XFjGFnDX-26" value="way2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="590" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uq-xYKgkHuC4XFjGFnDX-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;endArrow=block;endFill=0;" edge="1" parent="1" source="uq-xYKgkHuC4XFjGFnDX-27" target="uq-xYKgkHuC4XFjGFnDX-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uq-xYKgkHuC4XFjGFnDX-27" value="特征点提取" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="110" y="210" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
