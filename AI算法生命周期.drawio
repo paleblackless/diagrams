@@ -1,1 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2023-02-22T05:54:22.066Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="20.8.21" etag="f8lj0z2RXDfYCsNpI49x" type="github"><diagram name="第 1 页" id="2yTEqHCldMi4QUYguqsw">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-22T07:53:09.889Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="MFhpViTtY4NrmiTUsibS" version="20.8.22" type="github">
+  <diagram name="第 1 页" id="2yTEqHCldMi4QUYguqsw">
+    <mxGraphModel dx="968" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LQg2GFTGO8ufoFwHGwls-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="319.52" as="sourcePoint" />
+            <mxPoint x="800" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LQg2GFTGO8ufoFwHGwls-1" value="Collect Data" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="210" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LQg2GFTGO8ufoFwHGwls-2" value="Create Model" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="330" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LQg2GFTGO8ufoFwHGwls-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontFamily=Times New Roman;fontSize=14;" edge="1" parent="1" source="LQg2GFTGO8ufoFwHGwls-3" target="LQg2GFTGO8ufoFwHGwls-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LQg2GFTGO8ufoFwHGwls-3" value="Model &lt;br&gt;Evaluation" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="450" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LQg2GFTGO8ufoFwHGwls-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=14;dashed=1;dashPattern=1 1;strokeWidth=2;" edge="1" parent="1" source="LQg2GFTGO8ufoFwHGwls-4" target="LQg2GFTGO8ufoFwHGwls-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="200" />
+              <mxPoint x="270" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LQg2GFTGO8ufoFwHGwls-4" value="Deploy" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="570" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LQg2GFTGO8ufoFwHGwls-6" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;LifeCycle&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LQg2GFTGO8ufoFwHGwls-7" value="1.原始数据收集&lt;br&gt;2.定义注释模式&lt;br&gt;3.数据标注&lt;br&gt;4.改进数据集和标注&lt;br&gt;5.数据集版本管理" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="213" y="370" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LQg2GFTGO8ufoFwHGwls-8" value="1.预训练模型微调&lt;br&gt;2.构建模型训练&lt;br&gt;3.训练跟踪过程4.模型评估" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="330" y="370" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LQg2GFTGO8ufoFwHGwls-9" value="1.可视化输出&lt;br&gt;2.制定正确度量标准&lt;br&gt;3.分析失败案例影响因素（数据，模型）" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="453" y="370" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LQg2GFTGO8ufoFwHGwls-10" value="1.模型运行监控机制&lt;br&gt;2.评估新数据&amp;amp;&amp;amp;模型迭代&lt;br&gt;3.寻找样本偏差&lt;br&gt;3.算法服务可扩展性" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="577" y="370" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LQg2GFTGO8ufoFwHGwls-15" value="训练集上最优模型下发" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="530" y="230" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LQg2GFTGO8ufoFwHGwls-16" value="返回实际生产中反馈的错误样本和新样本，持续优化" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="370" y="170" width="170" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
