@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T05:31:58.974Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="iCBaB25BghcKSB7EN6JT" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-28T05:40:18.522Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="BBPoIYfOYvSHY9Hj7NkH" version="20.8.22" type="github">
   <diagram id="LE4c7SaQOkgi2_fTezmZ" name="Page-1">
-    <mxGraphModel dx="454" dy="264" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1049" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -73,11 +73,11 @@
         <mxCell id="enxGzovfLy_JIHNYhwGa-53" value="AI基础设施" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="210" y="595" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="enxGzovfLy_JIHNYhwGa-55" value="&lt;b&gt;模型训练&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Times New Roman;" parent="1" vertex="1">
-          <mxGeometry x="210" y="474.5" width="90" height="32.5" as="geometry" />
+        <mxCell id="enxGzovfLy_JIHNYhwGa-55" value="&lt;b&gt;算法应用服务平台&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="210" y="421" width="100" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="enxGzovfLy_JIHNYhwGa-56" value="&lt;b&gt;智能分析算法&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Times New Roman;" parent="1" vertex="1">
-          <mxGeometry x="210" y="429.5" width="90" height="32.5" as="geometry" />
+        <mxCell id="enxGzovfLy_JIHNYhwGa-56" value="&lt;b&gt;AILib分析算法&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="210" y="472.06" width="100" height="35.87" as="geometry" />
         </mxCell>
         <mxCell id="BBXqaFTru5XH4FBb02SN-1" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;模型验证服务&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="210" y="324.75" width="90" height="32.5" as="geometry" />
