@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-06-15T04:55:36.921Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="bDZ1xLRz-X3UQNNmso_Y" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-15T04:56:02.555Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="iaweW6zJ4xX2dp7yiBDW" version="21.3.8" type="github">
   <diagram name="Page-1" id="epA-7NYxB7b0G-LW-VO8">
-    <mxGraphModel dx="4839" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4198" dy="464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="UhlIlFGwnAUsdLjIb29t-73" value="&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#33ff33&quot;&gt;边端算法模型&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#eeeeee;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="1">
+        <mxCell id="UhlIlFGwnAUsdLjIb29t-73" value="&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;边端算法模型&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#eeeeee;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="1">
           <mxGeometry x="-2894" y="459" width="33" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UhlIlFGwnAUsdLjIb29t-2" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;rounded=0;" edge="1" parent="1">
@@ -71,7 +71,7 @@
           <mxGeometry x="-3140" y="525" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UhlIlFGwnAUsdLjIb29t-21" value="&lt;b&gt;&lt;font style=&quot;&quot; color=&quot;#33001a&quot;&gt;边缘物联代理&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CC00CC;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-2971" y="449.25" width="80" height="33.75" as="geometry" />
+          <mxGeometry x="-2974" y="450" width="80" height="33.75" as="geometry" />
         </mxCell>
         <mxCell id="UhlIlFGwnAUsdLjIb29t-22" value="&lt;b&gt;&lt;font color=&quot;#cccccc&quot;&gt;信息内网安全接入平台&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="-3130" y="384.5" width="150" height="37" as="geometry" />
@@ -200,10 +200,10 @@
           <mxGeometry x="-2791" y="444" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UhlIlFGwnAUsdLjIb29t-74" value="线路通道隐患识别算法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;container=0;" vertex="1" parent="1">
-          <mxGeometry x="-2860" y="445" width="65.22" height="30" as="geometry" />
+          <mxGeometry x="-2860" y="444" width="65.22" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UhlIlFGwnAUsdLjIb29t-85" value="线路本体缺陷识别算法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;container=0;" vertex="1" parent="1">
-          <mxGeometry x="-2860" y="480" width="65.22" height="30" as="geometry" />
+          <mxGeometry x="-2860" y="479" width="65.22" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UhlIlFGwnAUsdLjIb29t-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.627;entryY=0.987;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#CCCCCC;exitX=0.231;exitY=0.02;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
