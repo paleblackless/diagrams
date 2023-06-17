@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-17T09:39:21.924Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="qxEFee4KGhKCYs8E08nZ" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-17T09:40:57.397Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="mI4D972iAgS1wa1OnIbB" version="21.4.0" type="github">
   <diagram name="Page-1" id="EMWqGDvdh3wNdlDmNiik">
-    <mxGraphModel dx="1253" dy="1070" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="605" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,7 +76,7 @@
             <mxPoint x="537" y="319.16" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZI1UuaGwZEScA0NQS_c4-55" value="请求数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ZI1UuaGwZEScA0NQS_c4-55" value="请求评测数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="479.84000000000003" y="280.1" width="50.08" height="17" as="geometry" />
         </mxCell>
         <mxCell id="ZI1UuaGwZEScA0NQS_c4-56" value="返回数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -118,10 +118,10 @@
             <mxPoint x="420.98" y="226.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZI1UuaGwZEScA0NQS_c4-68" value="边缘模型算法训练" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ZI1UuaGwZEScA0NQS_c4-68" value="启动算法训练任务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="330" y="245" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZI1UuaGwZEScA0NQS_c4-69" value="训练模型文件返回" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ZI1UuaGwZEScA0NQS_c4-69" value="返回训练模型文件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="430" y="246.6" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZI1UuaGwZEScA0NQS_c4-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1">
@@ -188,7 +188,7 @@
           <mxGeometry x="340" y="362.6" width="33" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZI1UuaGwZEScA0NQS_c4-87" value="控制指令" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="414" y="362.6" width="33" height="30" as="geometry" />
+          <mxGeometry x="419.39" y="350" width="33" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZI1UuaGwZEScA0NQS_c4-88" value="数据传输" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="259.74" y="476" width="33" height="30" as="geometry" />
