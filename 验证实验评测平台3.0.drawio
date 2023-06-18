@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-18T13:23:27.721Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Wx12yaTixa9RaC95Blpk" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-18T13:25:33.274Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="649jlf9Phjr-c9wyOrYr" version="21.4.0" type="github">
   <diagram name="Page-1" id="BjMEe_yQTuDNnZiERD-y">
     <mxGraphModel dx="1091" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -167,7 +167,7 @@
         <mxCell id="9P_XUEUad1VfOH1WSr98-112" value="可视化控制台" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;container=0;" vertex="1" parent="9P_XUEUad1VfOH1WSr98-251">
           <mxGeometry y="364" width="45.25" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="9P_XUEUad1VfOH1WSr98-113" value="client" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="9P_XUEUad1VfOH1WSr98-251">
+        <mxCell id="9P_XUEUad1VfOH1WSr98-113" value="&lt;b&gt;client&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="9P_XUEUad1VfOH1WSr98-251">
           <mxGeometry x="57" y="374.5" width="23" height="18" as="geometry" />
         </mxCell>
         <mxCell id="9P_XUEUad1VfOH1WSr98-115" value="非结构化平台" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;container=0;" vertex="1" parent="9P_XUEUad1VfOH1WSr98-251">
@@ -281,7 +281,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9P_XUEUad1VfOH1WSr98-249" value="数据指令控制指令" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];container=0;" vertex="1" connectable="0" parent="9P_XUEUad1VfOH1WSr98-251">
-          <mxGeometry x="583.9989870416475" y="392.49736199670576" as="geometry" />
+          <mxGeometry x="583.9989870416475" y="386.49736199670576" as="geometry" />
         </mxCell>
         <mxCell id="9P_XUEUad1VfOH1WSr98-235" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="9P_XUEUad1VfOH1WSr98-251" source="9P_XUEUad1VfOH1WSr98-88" target="9P_XUEUad1VfOH1WSr98-234">
           <mxGeometry relative="1" as="geometry" />
@@ -359,7 +359,7 @@
         </mxCell>
         <mxCell id="9P_XUEUad1VfOH1WSr98-238" value="&lt;font color=&quot;#00ff00&quot;&gt;被测设备算法镜像包&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];container=0;" vertex="1" connectable="0" parent="9P_XUEUad1VfOH1WSr98-237">
           <mxGeometry x="0.6585" y="-1" relative="1" as="geometry">
-            <mxPoint x="54" y="53" as="offset" />
+            <mxPoint x="95" y="50" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9P_XUEUad1VfOH1WSr98-40" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;fillColor=none;fillStyle=auto;strokeColor=#CC0000;gradientColor=#97d077;container=0;" vertex="1" parent="9P_XUEUad1VfOH1WSr98-251">
