@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-06-18T11:07:12.132Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ej4E0ACyVeD-UTtnF6ky" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-18T11:08:17.862Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Ho9XnFNWyYy2-lZqV-rU" version="21.4.0" type="github">
   <diagram name="Page-1" id="bsfZX9qir-kHV4ePOipt">
     <mxGraphModel dx="1147" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="0-SAyh4j1Om2BQJU0ODs-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="392.25" y="420" width="498.75" height="85" as="geometry" />
+          <mxGeometry x="392.25" y="420" width="497.75" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0gdX41yuawXqDvsZ0Xbq-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -18,11 +18,8 @@
             <mxPoint x="-1" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0gdX41yuawXqDvsZ0Xbq-4" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=none;strokeColor=#FF0000;gradientColor=#b3b3b3;" parent="1" vertex="1">
-          <mxGeometry x="92" y="417" width="148.75" height="140" as="geometry" />
-        </mxCell>
         <mxCell id="0gdX41yuawXqDvsZ0Xbq-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="81.25" y="278" width="808.75" height="137" as="geometry" />
+          <mxGeometry x="81.25" y="278" width="808.75" height="142" as="geometry" />
         </mxCell>
         <mxCell id="0gdX41yuawXqDvsZ0Xbq-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="92" y="40.00999999999999" width="800" height="55" as="geometry" />
@@ -577,7 +574,7 @@
           <mxGeometry x="195.95000000000002" y="427.99999999999994" width="32.6" height="16" as="geometry" />
         </mxCell>
         <mxCell id="0gdX41yuawXqDvsZ0Xbq-154" value="&lt;br style=&quot;border-color: var(--border-color); font-size: 11px;&quot;&gt;&lt;b&gt;I1协议扩容：&lt;br&gt;&lt;/b&gt;1.&lt;b&gt;远程图像报文格式&lt;/b&gt;中&lt;b&gt;支持主站回传远程图片方式。&lt;br&gt;2.控制及配置数据报文格式&lt;/b&gt;中增加评测模式标志位，用于&lt;b&gt;启用图片分析算法服务&lt;/b&gt;。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="514" y="490" width="280" height="67" as="geometry" />
+          <mxGeometry x="514" y="490" width="316" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0gdX41yuawXqDvsZ0Xbq-155" value="设备注册" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="267.25" y="490" width="29.82" height="18.67" as="geometry" />
@@ -609,7 +606,6 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="240.25" y="490" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="480" y="560" />
               <mxPoint x="261" y="560" />
               <mxPoint x="261" y="490" />
             </Array>
@@ -684,6 +680,9 @@
           <mxGeometry x="0.3775" relative="1" as="geometry">
             <mxPoint x="-31" y="14" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="0gdX41yuawXqDvsZ0Xbq-4" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=none;strokeColor=#FF0000;gradientColor=#b3b3b3;" parent="1" vertex="1">
+          <mxGeometry x="90" y="419" width="148.75" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
