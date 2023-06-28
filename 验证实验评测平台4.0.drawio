@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-28T07:09:26.469Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="cxHcx_aEQ1iwSTg1oI6j" version="21.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-06-28T07:09:55.748Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="7WtuTex7a0Nvrl8bb5es" version="21.5.1" type="github" pages="2">
   <diagram name="第 1 页" id="WKB6_qD28YtE0LCWN2o6">
     <mxGraphModel dx="1050" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -328,7 +328,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="G80X7TiXTr0TSqup8MuL" name="第 2 页">
-    <mxGraphModel dx="420" dy="255" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -468,46 +468,46 @@
           <mxGeometry x="602" y="270.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6RoqysEZifPBQRxsZrR7-3" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="600" y="144.5" width="220" height="94" as="geometry" />
+          <mxGeometry x="600" y="125" width="220" height="125" as="geometry" />
         </mxCell>
         <mxCell id="w26a5TQXYNk65XmxfWID-82" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="6RoqysEZifPBQRxsZrR7-3" vertex="1">
-          <mxGeometry width="220" height="94" as="geometry" />
+          <mxGeometry y="-5.434782608695652" width="220" height="125" as="geometry" />
         </mxCell>
         <mxCell id="w26a5TQXYNk65XmxfWID-88" value="边缘AI运行监控" style="rounded=0;whiteSpace=wrap;html=1;" parent="6RoqysEZifPBQRxsZrR7-3" vertex="1">
-          <mxGeometry x="146" y="14" width="70" height="31" as="geometry" />
+          <mxGeometry x="146" y="18.617021276595743" width="70" height="41.223404255319146" as="geometry" />
         </mxCell>
         <mxCell id="w26a5TQXYNk65XmxfWID-85" value="二次推理校验" style="rounded=0;whiteSpace=wrap;html=1;" parent="6RoqysEZifPBQRxsZrR7-3" vertex="1">
-          <mxGeometry x="69" y="14" width="70" height="30" as="geometry" />
+          <mxGeometry x="69" y="18.617021276595743" width="70" height="39.89361702127659" as="geometry" />
         </mxCell>
         <mxCell id="w26a5TQXYNk65XmxfWID-86" value="协议扩容" style="rounded=0;whiteSpace=wrap;html=1;" parent="6RoqysEZifPBQRxsZrR7-3" vertex="1">
-          <mxGeometry x="146" y="55" width="70" height="30" as="geometry" />
+          <mxGeometry x="146" y="73.13829787234043" width="70" height="39.89361702127659" as="geometry" />
         </mxCell>
         <mxCell id="w26a5TQXYNk65XmxfWID-87" value="边缘模型管理" style="rounded=0;whiteSpace=wrap;html=1;" parent="6RoqysEZifPBQRxsZrR7-3" vertex="1">
-          <mxGeometry x="68" y="55" width="70" height="30" as="geometry" />
+          <mxGeometry x="68" y="73.13829787234043" width="70" height="39.89361702127659" as="geometry" />
         </mxCell>
         <mxCell id="w26a5TQXYNk65XmxfWID-91" value="物联管理平台" style="text;html=1;strokeColor=none;fillColor=#eeeeee;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="6RoqysEZifPBQRxsZrR7-3" vertex="1">
-          <mxGeometry x="2" y="40" width="60" height="30" as="geometry" />
+          <mxGeometry x="2" y="53.191489361702125" width="60" height="39.89361702127659" as="geometry" />
         </mxCell>
         <mxCell id="6RoqysEZifPBQRxsZrR7-4" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="600" y="334.5" width="220" height="95.5" as="geometry" />
+          <mxGeometry x="600" y="317.25" width="220" height="112.75" as="geometry" />
         </mxCell>
         <mxCell id="6RoqysEZifPBQRxsZrR7-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="6RoqysEZifPBQRxsZrR7-4">
-          <mxGeometry width="220" height="95.5" as="geometry" />
+          <mxGeometry width="220" height="112.75" as="geometry" />
         </mxCell>
         <mxCell id="w26a5TQXYNk65XmxfWID-97" value="边缘协同管理" style="rounded=0;whiteSpace=wrap;html=1;" parent="6RoqysEZifPBQRxsZrR7-4" vertex="1">
-          <mxGeometry x="146" y="11" width="70" height="31" as="geometry" />
+          <mxGeometry x="146" y="12.986910994764397" width="70" height="36.59947643979057" as="geometry" />
         </mxCell>
         <mxCell id="w26a5TQXYNk65XmxfWID-98" value="AI运行监控数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="6RoqysEZifPBQRxsZrR7-4" vertex="1">
-          <mxGeometry x="69" y="12" width="70" height="30" as="geometry" />
+          <mxGeometry x="69" y="14.167539267015705" width="70" height="35.41884816753927" as="geometry" />
         </mxCell>
         <mxCell id="w26a5TQXYNk65XmxfWID-99" value="边云协同推理" style="rounded=0;whiteSpace=wrap;html=1;" parent="6RoqysEZifPBQRxsZrR7-4" vertex="1">
-          <mxGeometry x="146" y="52" width="70" height="30" as="geometry" />
+          <mxGeometry x="146" y="61.39267015706806" width="70" height="35.41884816753927" as="geometry" />
         </mxCell>
         <mxCell id="w26a5TQXYNk65XmxfWID-100" value="边缘模型管理" style="rounded=0;whiteSpace=wrap;html=1;" parent="6RoqysEZifPBQRxsZrR7-4" vertex="1">
-          <mxGeometry x="69" y="53" width="70" height="30" as="geometry" />
+          <mxGeometry x="69" y="62.573298429319365" width="70" height="35.41884816753927" as="geometry" />
         </mxCell>
         <mxCell id="w26a5TQXYNk65XmxfWID-101" value="边缘计算框架" style="text;html=1;strokeColor=none;fillColor=#eeeeee;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="6RoqysEZifPBQRxsZrR7-4" vertex="1">
-          <mxGeometry x="2" y="37" width="60" height="30" as="geometry" />
+          <mxGeometry x="2" y="43.68324607329843" width="60" height="35.41884816753927" as="geometry" />
         </mxCell>
         <mxCell id="6RoqysEZifPBQRxsZrR7-5" value="统一视频平台" style="text;html=1;strokeColor=none;fillColor=#eeeeee;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="602" y="270.5" width="60" height="30" as="geometry" />
