@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-28T07:26:25.065Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="_6MRR21p6Oy4rLJoqD0Q" version="21.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-06-28T07:27:54.959Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="79kUfGPZUeq9HrpG2wjq" version="21.5.1" type="github" pages="2">
   <diagram name="第 1 页" id="WKB6_qD28YtE0LCWN2o6">
     <mxGraphModel dx="1050" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -328,7 +328,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="G80X7TiXTr0TSqup8MuL" name="第 2 页">
-    <mxGraphModel dx="1050" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="875" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -465,7 +465,7 @@
           <mxGeometry x="660" y="255.75" width="88" height="18.25" as="geometry" />
         </mxCell>
         <mxCell id="MHyBDicACdMXKI7If1Kn-1" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="620" y="120" width="170" height="125" as="geometry" />
+          <mxGeometry x="620" y="120" width="180" height="320" as="geometry" />
         </mxCell>
         <mxCell id="w26a5TQXYNk65XmxfWID-82" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="MHyBDicACdMXKI7If1Kn-1" vertex="1">
           <mxGeometry width="170" height="125" as="geometry" />
@@ -484,6 +484,9 @@
         </mxCell>
         <mxCell id="w26a5TQXYNk65XmxfWID-91" value="物联管理平台" style="text;html=1;strokeColor=none;fillColor=#eeeeee;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="MHyBDicACdMXKI7If1Kn-1" vertex="1">
           <mxGeometry x="40" y="10" width="90" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="MHyBDicACdMXKI7If1Kn-34" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#CC0000;" vertex="1" parent="MHyBDicACdMXKI7If1Kn-1">
+          <mxGeometry x="-10" y="-10" width="190" height="330" as="geometry" />
         </mxCell>
         <mxCell id="MHyBDicACdMXKI7If1Kn-2" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="620" y="318.63" width="170" height="111.37" as="geometry" />
