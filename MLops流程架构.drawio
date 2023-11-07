@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T05:25:28.069Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="odSeSJqz7MkHo8QwBuEN" version="22.0.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-11-07T05:25:39.764Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="4DBuy8QOLIj8zgZLyDYL" version="22.0.8" type="github" pages="3">
   <diagram name="模型迭代训练" id="vOQCpQKDUPRhvFcQO0uY">
     <mxGraphModel dx="600" dy="365" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -69,7 +69,7 @@
         <mxCell id="YMJfxToZ6Bt_KdeRJjBz-9" value="流量设置" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" vertex="1" parent="YMJfxToZ6Bt_KdeRJjBz-12">
           <mxGeometry y="40" width="60" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="YMJfxToZ6Bt_KdeRJjBz-11" value="上线实验" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="YMJfxToZ6Bt_KdeRJjBz-12">
+        <mxCell id="YMJfxToZ6Bt_KdeRJjBz-11" value="A/B实验" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="YMJfxToZ6Bt_KdeRJjBz-12">
           <mxGeometry x="35" y="5" width="60" height="25" as="geometry" />
         </mxCell>
         <mxCell id="YMJfxToZ6Bt_KdeRJjBz-13" value="" style="group" vertex="1" connectable="0" parent="1">
