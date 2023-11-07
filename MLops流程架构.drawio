@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T07:52:32.440Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="qmTDKWgfWY8CfiHjJUIJ" version="22.0.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-11-07T07:54:27.324Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="cqIArDV5dxhB9-A9RKvT" version="22.0.8" type="github" pages="3">
   <diagram name="模型迭代训练" id="vOQCpQKDUPRhvFcQO0uY">
     <mxGraphModel dx="618" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -485,7 +485,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="he8gd7YNfcpNKXEMYbQ3" name="模型文档修改要求">
-    <mxGraphModel dx="1177" dy="213" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1427" dy="365" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -507,7 +507,7 @@
         <mxCell id="1wHCgTdNtx7fQnhFuhUA-4" value="模型训练" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="160" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1wHCgTdNtx7fQnhFuhUA-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1wHCgTdNtx7fQnhFuhUA-6">
+        <mxCell id="1wHCgTdNtx7fQnhFuhUA-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#CC0000;" edge="1" parent="1" source="1wHCgTdNtx7fQnhFuhUA-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="230" y="190" as="targetPoint" />
             <Array as="points">
@@ -519,7 +519,7 @@
         </mxCell>
         <mxCell id="1wHCgTdNtx7fQnhFuhUA-16" value="手动调参" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1wHCgTdNtx7fQnhFuhUA-15">
           <mxGeometry x="0.3229" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-10" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1wHCgTdNtx7fQnhFuhUA-17" value="未达标" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1wHCgTdNtx7fQnhFuhUA-15">
@@ -571,13 +571,16 @@
           <mxGeometry x="140" y="320" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1wHCgTdNtx7fQnhFuhUA-36" value="人工复核" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="36" y="250" width="64" height="50" as="geometry" />
+          <mxGeometry x="40" y="250" width="64" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1wHCgTdNtx7fQnhFuhUA-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.972;entryY=0.499;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1wHCgTdNtx7fQnhFuhUA-18" target="1wHCgTdNtx7fQnhFuhUA-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1wHCgTdNtx7fQnhFuhUA-38" value="异常&lt;br&gt;样本" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="106" y="262.5" width="34" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="1wHCgTdNtx7fQnhFuhUA-39" value="制定评测标准" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="198" y="222" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
