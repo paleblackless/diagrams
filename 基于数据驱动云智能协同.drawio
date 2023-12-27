@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2023-12-27T01:42:28.875Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="umqi9Fuwd01Wj1qh_DCg" version="22.1.12" type="github">
-  <diagram name="第 1 页" id="5E1vlUVCbX9FXrK7n7TM">
+<mxfile host="app.diagrams.net" modified="2023-12-27T01:42:57.351Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="wFWFSNrxZjS9iAxeVDPm" version="22.1.12" type="github">
+  <diagram name="云边智能协同的计算迁移" id="5E1vlUVCbX9FXrK7n7TM">
     <mxGraphModel dx="766" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -91,7 +91,7 @@
         <mxCell id="9AMX45v3y1Crpqe9LBBQ-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="9AMX45v3y1Crpqe9LBBQ-20" target="9AMX45v3y1Crpqe9LBBQ-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9AMX45v3y1Crpqe9LBBQ-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.556;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="9AMX45v3y1Crpqe9LBBQ-20" target="9AMX45v3y1Crpqe9LBBQ-12">
+        <mxCell id="9AMX45v3y1Crpqe9LBBQ-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.556;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="9AMX45v3y1Crpqe9LBBQ-20" target="9AMX45v3y1Crpqe9LBBQ-12">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="540" y="370" />
