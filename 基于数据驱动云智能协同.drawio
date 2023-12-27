@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-27T02:27:30.697Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="aZD8GwqBw94TXgbASFN-" version="22.1.12" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-12-27T02:27:50.384Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="prpM0UXfmbkYlS1CS_Pb" version="22.1.12" type="github" pages="3">
   <diagram name="云边智能协同的计算迁移" id="5E1vlUVCbX9FXrK7n7TM">
     <mxGraphModel dx="1320" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -144,12 +144,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CuksUWj-dHbWvC9_Mc7x" name="云边智能协同框架">
-    <mxGraphModel dx="1094" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1320" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="l7zSU5FePnscDE2I2ngH-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="120" y="580" width="380" height="110" as="geometry" />
+        <mxCell id="l7zSU5FePnscDE2I2ngH-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="129" y="580" width="370" height="110" as="geometry" />
         </mxCell>
         <mxCell id="l7zSU5FePnscDE2I2ngH-7" value="" style="group;dashed=1;dashPattern=12 12;strokeColor=default;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="130" y="880" width="370" height="50" as="geometry" />
