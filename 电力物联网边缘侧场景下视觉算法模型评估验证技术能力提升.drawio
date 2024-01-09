@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-09T11:25:12.839Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="FXBfilNPzVdDcUOi0rK1" version="22.1.17" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-01-09T11:25:29.594Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="BrAmMZRZ4NxBRS_JTPeN" version="22.1.17" type="github" pages="2">
   <diagram name="系统逻辑分层组件视图" id="ts1mlfaZqgR7DDF70TvN">
     <mxGraphModel dx="478" dy="249" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -218,27 +218,27 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PdZkRd0V1vASnMJrNfWp" name="评测设备管理组件">
-    <mxGraphModel dx="160" dy="83" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="549" dy="283" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="0OQ2GWgDkfuhma8t0dGv-6" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="310" y="330" width="130" height="140" as="geometry" />
+          <mxGeometry x="310" y="330" width="120" height="140" as="geometry" />
         </mxCell>
         <mxCell id="0OQ2GWgDkfuhma8t0dGv-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="0OQ2GWgDkfuhma8t0dGv-6">
-          <mxGeometry width="130" height="140" as="geometry" />
+          <mxGeometry x="10" width="100" height="140" as="geometry" />
         </mxCell>
         <mxCell id="0OQ2GWgDkfuhma8t0dGv-2" value="设备管理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="0OQ2GWgDkfuhma8t0dGv-6">
-          <mxGeometry x="15" y="27" width="100" height="30" as="geometry" />
+          <mxGeometry x="13.846153846153847" y="27" width="92.3076923076923" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0OQ2GWgDkfuhma8t0dGv-3" value="设备分组" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="0OQ2GWgDkfuhma8t0dGv-6">
-          <mxGeometry x="15" y="107" width="100" height="30" as="geometry" />
+          <mxGeometry x="13.846153846153847" y="107" width="92.3076923076923" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0OQ2GWgDkfuhma8t0dGv-4" value="送检信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="0OQ2GWgDkfuhma8t0dGv-6">
-          <mxGeometry x="15" y="67" width="100" height="30" as="geometry" />
+          <mxGeometry x="13.846153846153847" y="67" width="92.3076923076923" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0OQ2GWgDkfuhma8t0dGv-5" value="&lt;b&gt;评测设备管理&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0OQ2GWgDkfuhma8t0dGv-6">
-          <mxGeometry x="25" width="80" height="24" as="geometry" />
+          <mxGeometry x="23.076923076923077" width="73.84615384615385" height="24" as="geometry" />
         </mxCell>
         <mxCell id="0OQ2GWgDkfuhma8t0dGv-8" value="电力智能设备端" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="325" y="500" width="100" height="30" as="geometry" />
