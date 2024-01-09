@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-09T11:41:10.897Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="0M7Ql8PBuXzd8qu_ga7y" version="22.1.17" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-01-09T11:51:13.870Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ljDNd-SHZlbBX54CAQa_" version="22.1.17" type="github" pages="2">
   <diagram name="系统逻辑分层组件视图" id="ts1mlfaZqgR7DDF70TvN">
-    <mxGraphModel dx="478" dy="249" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="659" dy="339" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -218,7 +218,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PdZkRd0V1vASnMJrNfWp" name="评测设备管理组件">
-    <mxGraphModel dx="458" dy="236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="784" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
