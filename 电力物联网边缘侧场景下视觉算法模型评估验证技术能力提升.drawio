@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-10T08:55:32.670Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="K_wh-k10lEQUb5WBtYoL" version="22.1.17" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-01-10T09:06:50.167Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Y51cG_FrybjCz-0rEZXo" version="22.1.17" type="github" pages="5">
   <diagram name="系统逻辑分层组件视图" id="ts1mlfaZqgR7DDF70TvN">
-    <mxGraphModel dx="1914" dy="976" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="958" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -86,13 +86,13 @@
           <mxGeometry x="287" y="452.95" width="47.58" height="19.1" as="geometry" />
         </mxCell>
         <mxCell id="CSi7sFmbqDeR1GMIAVVv-48" value="&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;b&gt;设备管理&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=none;container=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="410" y="452.95" width="53" height="19.1" as="geometry" />
+          <mxGeometry x="394" y="452.95" width="53" height="19.1" as="geometry" />
         </mxCell>
         <mxCell id="CSi7sFmbqDeR1GMIAVVv-49" value="&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;b&gt;样本管理&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=none;container=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="468" y="452.9" width="50" height="19.1" as="geometry" />
+          <mxGeometry x="454" y="452.9" width="50" height="19.1" as="geometry" />
         </mxCell>
-        <mxCell id="CSi7sFmbqDeR1GMIAVVv-50" value="&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;b&gt;应用管理&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=none;container=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="526" y="452.95" width="48" height="19.1" as="geometry" />
+        <mxCell id="CSi7sFmbqDeR1GMIAVVv-50" value="&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;b&gt;业务场景管理&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=none;container=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="510" y="452.95" width="64" height="19.1" as="geometry" />
         </mxCell>
         <mxCell id="CSi7sFmbqDeR1GMIAVVv-53" value="&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;b&gt;模型管理&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=none;container=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="580" y="452.9" width="52" height="19.1" as="geometry" />
@@ -212,7 +212,7 @@
           <mxGeometry x="673" y="485" width="30" height="65" as="geometry" />
         </mxCell>
         <mxCell id="J9KkuR1wp34z1YAEJ_eH-1" value="&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;b&gt;用例管理&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=none;container=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="348" y="452.9" width="53" height="19.1" as="geometry" />
+          <mxGeometry x="336" y="452.9" width="53" height="19.1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
