@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-11T05:13:35.845Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="SvnpYvX8IoxLssav7YBV" version="22.1.17" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-01-11T05:14:11.813Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="JU1w3NHkt8U5fGSY_38M" version="22.1.17" type="github" pages="6">
   <diagram name="系统逻辑分层组件视图" id="ts1mlfaZqgR7DDF70TvN">
     <mxGraphModel dx="819" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -491,7 +491,7 @@
         <mxCell id="Nl5dwZLLmsXFSGUVhCFy-1" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;新增&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="464.01" y="729" width="45" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Nl5dwZLLmsXFSGUVhCFy-2" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;已有&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="Nl5dwZLLmsXFSGUVhCFy-2" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;已有&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7b7c7c;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="410.01" y="729" width="45" height="20" as="geometry" />
         </mxCell>
       </root>
