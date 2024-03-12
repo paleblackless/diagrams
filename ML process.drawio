@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-12T02:25:12.427Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Rl05SAKHzz6qZ9lNrTOd" version="24.0.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-03-12T02:25:20.801Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="5fSaEMUeMt8f3lc_NEMX" version="24.0.2" type="github" pages="3">
   <diagram name="算法开发管理模式" id="LVWh7hBbTt7yXT6KXmA5">
     <mxGraphModel dx="875" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="500" y="210" width="250" height="310" as="geometry" />
         </mxCell>
         <mxCell id="B6DZqNdltBRdVpNt1uE--1" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="210" y="210" width="280" height="310" as="geometry" />
+          <mxGeometry x="160" y="210" width="330" height="310" as="geometry" />
         </mxCell>
         <mxCell id="4cwnVEVhvoFVtYDiHsyD-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4cwnVEVhvoFVtYDiHsyD-1" target="4cwnVEVhvoFVtYDiHsyD-2">
           <mxGeometry relative="1" as="geometry" />
