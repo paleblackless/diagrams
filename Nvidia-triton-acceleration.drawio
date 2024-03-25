@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-25T07:59:28.410Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="fAaypvKxqDuYy0-UHs5v" version="24.0.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-03-25T08:58:33.496Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="STASmTDfMTTHMvJdk53W" version="24.0.7" type="github" pages="3">
   <diagram name="workflow" id="-NaTIHxuZQWzzJ7UJj3l">
     <mxGraphModel dx="3269" dy="2103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -27,7 +27,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="7_uCxcIMyudkXjGnX5rE-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://github.com/triton-inference-server/tutorials/raw/main/Conceptual_Guide/Part_4-inference_acceleration/img/fw-trt-workflow.PNG;" vertex="1" parent="1">
-          <mxGeometry x="150" y="827" width="1200" height="638" as="geometry" />
+          <mxGeometry x="160" y="890" width="1200" height="638" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
