@@ -134,7 +134,7 @@
           <mxGeometry x="304.5" y="238.75" width="161" height="15" as="geometry" />
         </mxCell>
         <mxCell id="mYwyg0G2E5H3gfKfkVRK-80" value="API-Gateway" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="484.5" y="231.25" width="90" height="30" as="geometry" />
+          <mxGeometry x="476.5" y="231.25" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mYwyg0G2E5H3gfKfkVRK-81" value="Yes工作台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="195" y="178.75" width="88" height="30" as="geometry" />
