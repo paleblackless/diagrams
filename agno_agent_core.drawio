@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
   <diagram name="第 1 页" id="mlMKIKonqG3uTM8-hN5O">
-    <mxGraphModel dx="977" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1415" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -200,8 +200,8 @@
         <mxCell id="D3r7Wt1z7NvDzZLaiaD2-16" value="AG-UI-Client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="307.5" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="D3r7Wt1z7NvDzZLaiaD2-19" value="&lt;div style=&quot;color: rgb(216, 222, 233); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(235, 200, 141);&quot;&gt;EventEncoder&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="150" y="190" width="60" height="30" as="geometry" />
+        <mxCell id="D3r7Wt1z7NvDzZLaiaD2-19" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre; color: rgb(216, 222, 233);&quot;&gt;&lt;font style=&quot;color: rgb(255, 153, 51);&quot;&gt;event&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="190" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
