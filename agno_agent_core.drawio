@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="28.0.4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="28.0.4" pages="2">
   <diagram name="第 1 页" id="mlMKIKonqG3uTM8-hN5O">
-    <mxGraphModel dx="983" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="679" dy="376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="E5tgZd2nfOLW3WXQc2Yq-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="177" y="610" width="160" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="BSQEsAMGl3usn15K0dEv-12" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="340" width="180" height="200" as="geometry" />
         </mxCell>
@@ -103,8 +106,13 @@
         <mxCell id="BSQEsAMGl3usn15K0dEv-18" value="第三方API模型集成组件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="47.5" y="550" width="100" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="E5tgZd2nfOLW3WXQc2Yq-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.456;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BSQEsAMGl3usn15K0dEv-20" target="E5tgZd2nfOLW3WXQc2Yq-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="BSQEsAMGl3usn15K0dEv-20" value="工具库集成" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="200" y="550" width="100" height="30" as="geometry" />
+          <mxGeometry x="200" y="540" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BSQEsAMGl3usn15K0dEv-21" value="上下文管理和实践状态管理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="335" y="550" width="100" height="30" as="geometry" />
@@ -224,6 +232,20 @@
         <mxCell id="e9x4wBTH5SsN6plHCTbN-7" value="Remote server" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="705" y="110" width="90" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="E5tgZd2nfOLW3WXQc2Yq-1" value="MCP &lt;br&gt;server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="620" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E5tgZd2nfOLW3WXQc2Yq-2" value="custom&lt;br&gt;tools" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="262.5" y="620" width="70" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="OJ83bTv4U0x5jdEiz0ik" name="第 2 页">
+    <mxGraphModel dx="1426" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
