@@ -133,10 +133,10 @@
         <mxCell id="4rj6J2ML9m-wGVm5Qx6l-77" value="优势窗口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="230" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4rj6J2ML9m-wGVm5Qx6l-79" value="未来势场更新" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4rj6J2ML9m-wGVm5Qx6l-79" value="未来势场预测" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="350" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4rj6J2ML9m-wGVm5Qx6l-80" value="目标位置更新" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4rj6J2ML9m-wGVm5Qx6l-80" value="目标位置预测" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="391" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
