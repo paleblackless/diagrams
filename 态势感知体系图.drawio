@@ -11,13 +11,13 @@
           <mxGeometry x="520" y="210" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="4rj6J2ML9m-wGVm5Qx6l-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;态势察觉服务&lt;/font&gt;&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="450" width="90" height="30" as="geometry" />
+          <mxGeometry x="40" y="450" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4rj6J2ML9m-wGVm5Qx6l-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;态势总图管理服务&lt;/b&gt;&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="190" y="460" width="120" height="30" as="geometry" />
+          <mxGeometry x="200" y="450" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4rj6J2ML9m-wGVm5Qx6l-6" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;态势感知服务&lt;/b&gt;&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="510" y="450" width="100" height="30" as="geometry" />
+          <mxGeometry x="460" y="450" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4rj6J2ML9m-wGVm5Qx6l-18" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -60,13 +60,13 @@
         </mxCell>
         <mxCell id="4rj6J2ML9m-wGVm5Qx6l-21" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="190" y="449.34000000000003" as="sourcePoint" />
-            <mxPoint x="330" y="450" as="targetPoint" />
+            <mxPoint x="178" y="449.33000000000004" as="sourcePoint" />
+            <mxPoint x="318" y="449.99" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4rj6J2ML9m-wGVm5Qx6l-22" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="340" y="450" as="sourcePoint" />
+            <mxPoint x="330" y="450" as="sourcePoint" />
             <mxPoint x="690" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
