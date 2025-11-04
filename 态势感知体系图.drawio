@@ -46,7 +46,7 @@
         <mxCell id="4rj6J2ML9m-wGVm5Qx6l-12" value="作战单元" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="340" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4rj6J2ML9m-wGVm5Qx6l-13" value="时空数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4rj6J2ML9m-wGVm5Qx6l-13" value="空间位置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="290" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4rj6J2ML9m-wGVm5Qx6l-14" value="水文" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
