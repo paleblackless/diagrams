@@ -7,7 +7,7 @@
         <mxCell id="4rj6J2ML9m-wGVm5Qx6l-1" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="440" as="sourcePoint" />
-            <mxPoint x="260" y="440" as="targetPoint" />
+            <mxPoint x="270" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4rj6J2ML9m-wGVm5Qx6l-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
@@ -30,6 +30,33 @@
         </mxCell>
         <mxCell id="4rj6J2ML9m-wGVm5Qx6l-6" value="决策中心" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="560" y="450" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4rj6J2ML9m-wGVm5Qx6l-8" value="海洋气象" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4rj6J2ML9m-wGVm5Qx6l-9" value="地势地貌" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="290" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4rj6J2ML9m-wGVm5Qx6l-10" value="侦察动向" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="340" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4rj6J2ML9m-wGVm5Qx6l-11" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="340" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4rj6J2ML9m-wGVm5Qx6l-12" value="作战单元" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="340" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4rj6J2ML9m-wGVm5Qx6l-13" value="时空数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="290" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4rj6J2ML9m-wGVm5Qx6l-14" value="水文" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="240" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4rj6J2ML9m-wGVm5Qx6l-15" value="目标信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="390" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4rj6J2ML9m-wGVm5Qx6l-16" value="..." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="390" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
