@@ -218,12 +218,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="s-J4JIIbbLOJxlj_ENhU" name="软甲架构">
-    <mxGraphModel dx="1225" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1131" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="YO1zZ8xP7069QKd3nVzi-7" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="120" y="510" width="490" height="110" as="geometry" />
+          <mxGeometry x="120" y="630" width="490" height="110" as="geometry" />
         </mxCell>
         <mxCell id="YO1zZ8xP7069QKd3nVzi-1" value="时空数据库&lt;br&gt;PostGIS" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="YO1zZ8xP7069QKd3nVzi-7">
           <mxGeometry x="10" y="50" width="80" height="60" as="geometry" />
@@ -245,12 +245,12 @@
         </mxCell>
         <mxCell id="YO1zZ8xP7069QKd3nVzi-9" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="370" y="510" as="sourcePoint" />
-            <mxPoint x="370" y="450" as="targetPoint" />
+            <mxPoint x="370" y="630" as="sourcePoint" />
+            <mxPoint x="370" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YO1zZ8xP7069QKd3nVzi-16" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="129" y="350" width="492" height="100" as="geometry" />
+          <mxGeometry x="129" y="470" width="492" height="100" as="geometry" />
         </mxCell>
         <mxCell id="YO1zZ8xP7069QKd3nVzi-10" value="数据处理层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YO1zZ8xP7069QKd3nVzi-16">
           <mxGeometry x="1" width="490" height="40" as="geometry" />
@@ -272,12 +272,12 @@
         </mxCell>
         <mxCell id="YO1zZ8xP7069QKd3nVzi-17" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="371" y="340" as="sourcePoint" />
-            <mxPoint x="371" y="280" as="targetPoint" />
+            <mxPoint x="371" y="469" as="sourcePoint" />
+            <mxPoint x="371" y="409" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YO1zZ8xP7069QKd3nVzi-18" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="130" y="180" width="492" height="100" as="geometry" />
+          <mxGeometry x="130" y="310" width="492" height="100" as="geometry" />
         </mxCell>
         <mxCell id="YO1zZ8xP7069QKd3nVzi-19" value="核心服务层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YO1zZ8xP7069QKd3nVzi-18">
           <mxGeometry x="1" width="490" height="40" as="geometry" />
@@ -296,6 +296,43 @@
         </mxCell>
         <mxCell id="YO1zZ8xP7069QKd3nVzi-24" value="态势感知服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YO1zZ8xP7069QKd3nVzi-18">
           <mxGeometry x="402" y="50" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YO1zZ8xP7069QKd3nVzi-25" value="API 网关层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="200" width="490" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YO1zZ8xP7069QKd3nVzi-26" value="客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="120" width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YO1zZ8xP7069QKd3nVzi-28" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="375.55" y="306" as="sourcePoint" />
+            <mxPoint x="375.55" y="246" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YO1zZ8xP7069QKd3nVzi-29" value="移动端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="120" width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YO1zZ8xP7069QKd3nVzi-30" value="API网关" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="120" width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YO1zZ8xP7069QKd3nVzi-31" value="外部系统集成接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="541" y="120" width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YO1zZ8xP7069QKd3nVzi-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.109;entryY=-0.056;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="YO1zZ8xP7069QKd3nVzi-26" target="YO1zZ8xP7069QKd3nVzi-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YO1zZ8xP7069QKd3nVzi-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="YO1zZ8xP7069QKd3nVzi-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YO1zZ8xP7069QKd3nVzi-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.622;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="YO1zZ8xP7069QKd3nVzi-30" target="YO1zZ8xP7069QKd3nVzi-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YO1zZ8xP7069QKd3nVzi-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="YO1zZ8xP7069QKd3nVzi-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="575" y="200" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
