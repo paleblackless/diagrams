@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.9">
-  <diagram name="第 1 页" id="DNKjbSXasiBf5FU6qUrO">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.9" pages="2">
+  <diagram name="框架图" id="DNKjbSXasiBf5FU6qUrO">
     <mxGraphModel dx="695" dy="383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -213,6 +213,89 @@
         </mxCell>
         <mxCell id="4rj6J2ML9m-wGVm5Qx6l-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.554;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4rj6J2ML9m-wGVm5Qx6l-103" target="4rj6J2ML9m-wGVm5Qx6l-74">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="s-J4JIIbbLOJxlj_ENhU" name="软甲架构">
+    <mxGraphModel dx="1225" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YO1zZ8xP7069QKd3nVzi-7" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="120" y="510" width="490" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YO1zZ8xP7069QKd3nVzi-1" value="时空数据库&lt;br&gt;PostGIS" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="YO1zZ8xP7069QKd3nVzi-7">
+          <mxGeometry x="10" y="50" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YO1zZ8xP7069QKd3nVzi-2" value="对象存储&lt;br&gt;Minio" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="YO1zZ8xP7069QKd3nVzi-7">
+          <mxGeometry x="120" y="50" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YO1zZ8xP7069QKd3nVzi-3" value="图数据库（Neoj4）" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="YO1zZ8xP7069QKd3nVzi-7">
+          <mxGeometry x="310" y="50" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YO1zZ8xP7069QKd3nVzi-4" value="Redis&lt;div&gt;（&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;缓存集群）&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="YO1zZ8xP7069QKd3nVzi-7">
+          <mxGeometry x="410" y="50" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YO1zZ8xP7069QKd3nVzi-5" value="数据存储层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YO1zZ8xP7069QKd3nVzi-7">
+          <mxGeometry x="8.5" width="490" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YO1zZ8xP7069QKd3nVzi-6" value="矢量数据库&lt;span style=&quot;font-size: 10px; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(26, 26, 26), rgb(215, 215, 215)); font-family: dosis, sans-serif; text-align: start;&quot;&gt;Elastic、Qrdant&lt;/span&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="YO1zZ8xP7069QKd3nVzi-7">
+          <mxGeometry x="213.5" y="50" width="86.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YO1zZ8xP7069QKd3nVzi-9" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="370" y="510" as="sourcePoint" />
+            <mxPoint x="370" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YO1zZ8xP7069QKd3nVzi-16" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="129" y="350" width="492" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YO1zZ8xP7069QKd3nVzi-10" value="数据处理层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YO1zZ8xP7069QKd3nVzi-16">
+          <mxGeometry x="1" width="490" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YO1zZ8xP7069QKd3nVzi-11" value="空间计算引擎" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YO1zZ8xP7069QKd3nVzi-16">
+          <mxGeometry y="50" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YO1zZ8xP7069QKd3nVzi-12" value="时间序列引擎" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YO1zZ8xP7069QKd3nVzi-16">
+          <mxGeometry x="97" y="50" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YO1zZ8xP7069QKd3nVzi-13" value="图像处理引擎" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YO1zZ8xP7069QKd3nVzi-16">
+          <mxGeometry x="196" y="50" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YO1zZ8xP7069QKd3nVzi-14" value="特征处理引擎" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YO1zZ8xP7069QKd3nVzi-16">
+          <mxGeometry x="299" y="50" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YO1zZ8xP7069QKd3nVzi-15" value="数据清洗引擎" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YO1zZ8xP7069QKd3nVzi-16">
+          <mxGeometry x="402" y="50" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YO1zZ8xP7069QKd3nVzi-17" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="371" y="340" as="sourcePoint" />
+            <mxPoint x="371" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YO1zZ8xP7069QKd3nVzi-18" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="130" y="180" width="492" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YO1zZ8xP7069QKd3nVzi-19" value="核心服务层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YO1zZ8xP7069QKd3nVzi-18">
+          <mxGeometry x="1" width="490" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YO1zZ8xP7069QKd3nVzi-20" value="数据接入服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YO1zZ8xP7069QKd3nVzi-18">
+          <mxGeometry y="50" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YO1zZ8xP7069QKd3nVzi-21" value="数据加工服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YO1zZ8xP7069QKd3nVzi-18">
+          <mxGeometry x="97" y="50" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YO1zZ8xP7069QKd3nVzi-22" value="子图管理服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YO1zZ8xP7069QKd3nVzi-18">
+          <mxGeometry x="196" y="50" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YO1zZ8xP7069QKd3nVzi-23" value="态势总图服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YO1zZ8xP7069QKd3nVzi-18">
+          <mxGeometry x="299" y="50" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YO1zZ8xP7069QKd3nVzi-24" value="态势感知服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YO1zZ8xP7069QKd3nVzi-18">
+          <mxGeometry x="402" y="50" width="90" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
