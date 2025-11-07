@@ -766,6 +766,12 @@
         <mxCell id="UJ8546aJN5pvEdjzd99b-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.328;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UJ8546aJN5pvEdjzd99b-35" target="UJ8546aJN5pvEdjzd99b-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="UJ8546aJN5pvEdjzd99b-55" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="170" width="170" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="UJ8546aJN5pvEdjzd99b-56" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;当前&amp;amp;未来时序数据&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="32.5" y="420" width="125" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
