@@ -766,12 +766,6 @@
         <mxCell id="UJ8546aJN5pvEdjzd99b-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.328;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UJ8546aJN5pvEdjzd99b-35" target="UJ8546aJN5pvEdjzd99b-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UJ8546aJN5pvEdjzd99b-53" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="190" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="UJ8546aJN5pvEdjzd99b-54" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="10" y="160" width="140" height="260" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
