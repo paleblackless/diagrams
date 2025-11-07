@@ -657,8 +657,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="uGxMye-DqxS3EdA71AIR" name="第 5 页">
-    <mxGraphModel dx="678" dy="387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="uGxMye-DqxS3EdA71AIR" name="传统方法">
+    <mxGraphModel dx="995" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -669,7 +669,7 @@
           <mxGeometry x="450" y="30" width="177.88" height="270" as="geometry" />
         </mxCell>
         <mxCell id="UJ8546aJN5pvEdjzd99b-9" value="决策要素" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="22" y="304" width="110" height="40" as="geometry" />
+          <mxGeometry x="19" y="304" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UJ8546aJN5pvEdjzd99b-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UJ8546aJN5pvEdjzd99b-4" target="UJ8546aJN5pvEdjzd99b-29">
           <mxGeometry relative="1" as="geometry">
@@ -680,13 +680,13 @@
           <mxGeometry x="20" y="73" width="110" height="37" as="geometry" />
         </mxCell>
         <mxCell id="UJ8546aJN5pvEdjzd99b-5" value="外部要素" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="23" y="243" width="107" height="40" as="geometry" />
+          <mxGeometry x="20" y="243" width="107" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UJ8546aJN5pvEdjzd99b-6" value="基础地理因素" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="180" width="110" height="40" as="geometry" />
+          <mxGeometry x="17" y="180" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UJ8546aJN5pvEdjzd99b-10" value="其他要素" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="23" y="365" width="110" height="40" as="geometry" />
+          <mxGeometry x="20" y="365" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UJ8546aJN5pvEdjzd99b-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UJ8546aJN5pvEdjzd99b-11">
           <mxGeometry relative="1" as="geometry">
@@ -765,6 +765,12 @@
         </mxCell>
         <mxCell id="UJ8546aJN5pvEdjzd99b-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.328;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UJ8546aJN5pvEdjzd99b-35" target="UJ8546aJN5pvEdjzd99b-1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJ8546aJN5pvEdjzd99b-53" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UJ8546aJN5pvEdjzd99b-54" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="160" width="140" height="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
