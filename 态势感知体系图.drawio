@@ -842,7 +842,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PZRamhMILj1VdnJPK5SM" name="子图编目流程">
-    <mxGraphModel dx="919" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="735" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -895,7 +895,7 @@
         <mxCell id="YdpXFTDShVyiWIwffX9v-40" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="190" y="230" width="340" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="YdpXFTDShVyiWIwffX9v-37" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;dashed=1;dashPattern=8 8;" vertex="1" parent="YdpXFTDShVyiWIwffX9v-40">
+        <mxCell id="YdpXFTDShVyiWIwffX9v-37" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;dashed=1;dashPattern=8 8;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="YdpXFTDShVyiWIwffX9v-40">
           <mxGeometry width="320" height="320" as="geometry" />
         </mxCell>
         <mxCell id="YdpXFTDShVyiWIwffX9v-2" value="时空数据库&lt;br&gt;PostGIS" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="YdpXFTDShVyiWIwffX9v-40">
@@ -914,7 +914,7 @@
           <mxGeometry x="34.905714285714254" y="65.87882352941176" width="123.74795918367344" height="56.470588235294116" as="geometry" />
         </mxCell>
         <mxCell id="YdpXFTDShVyiWIwffX9v-39" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); display: inline !important;&quot;&gt;标准数据存储层&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="YdpXFTDShVyiWIwffX9v-40">
-          <mxGeometry x="96" y="9.411764705882353" width="150" height="28.235294117647058" as="geometry" />
+          <mxGeometry x="85" y="20.00176470588235" width="150" height="28.235294117647058" as="geometry" />
         </mxCell>
         <mxCell id="YdpXFTDShVyiWIwffX9v-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="YdpXFTDShVyiWIwffX9v-39" target="YdpXFTDShVyiWIwffX9v-15">
           <mxGeometry relative="1" as="geometry" />
@@ -940,7 +940,7 @@
             <mxPoint x="680" y="335.0000000000001" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YdpXFTDShVyiWIwffX9v-60" value="存储子图索引和编目" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YdpXFTDShVyiWIwffX9v-59">
+        <mxCell id="YdpXFTDShVyiWIwffX9v-60" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;存储子图索引和编目&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YdpXFTDShVyiWIwffX9v-59">
           <mxGeometry x="-0.0649" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -957,7 +957,7 @@
         <mxCell id="YdpXFTDShVyiWIwffX9v-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.975;entryY=0.329;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="YdpXFTDShVyiWIwffX9v-47" target="YdpXFTDShVyiWIwffX9v-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YdpXFTDShVyiWIwffX9v-63" value="存储" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YdpXFTDShVyiWIwffX9v-62">
+        <mxCell id="YdpXFTDShVyiWIwffX9v-63" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;存储&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YdpXFTDShVyiWIwffX9v-62">
           <mxGeometry x="-0.0341" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
