@@ -842,53 +842,66 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PZRamhMILj1VdnJPK5SM" name="子图编目流程">
-    <mxGraphModel dx="735" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="YdpXFTDShVyiWIwffX9v-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="i62Hu4_nnl7QRz3wZocd-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280" y="145" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="i62Hu4_nnl7QRz3wZocd-1" value="子图元数据提取" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="120" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="YdpXFTDShVyiWIwffX9v-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="i62Hu4_nnl7QRz3wZocd-2" target="i62Hu4_nnl7QRz3wZocd-1">
+        <mxCell id="YdpXFTDShVyiWIwffX9v-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="i62Hu4_nnl7QRz3wZocd-2" target="YdpXFTDShVyiWIwffX9v-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i62Hu4_nnl7QRz3wZocd-2" value="子图划分索引" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="120" width="90" height="50" as="geometry" />
+          <mxGeometry x="30" y="120" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="YdpXFTDShVyiWIwffX9v-1" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="79" y="263" width="490" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="YdpXFTDShVyiWIwffX9v-2" value="时空数据库&lt;br&gt;PostGIS" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="YdpXFTDShVyiWIwffX9v-1">
-          <mxGeometry x="10" y="50" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YdpXFTDShVyiWIwffX9v-3" value="对象存储&lt;br&gt;Minio" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="YdpXFTDShVyiWIwffX9v-1">
-          <mxGeometry x="120" y="50" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YdpXFTDShVyiWIwffX9v-4" value="图数据库（Neoj4）" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="YdpXFTDShVyiWIwffX9v-1">
-          <mxGeometry x="310" y="50" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YdpXFTDShVyiWIwffX9v-5" value="Redis&lt;div&gt;（&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;缓存集群）&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="YdpXFTDShVyiWIwffX9v-1">
-          <mxGeometry x="410" y="50" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YdpXFTDShVyiWIwffX9v-6" value="标准数据存储层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YdpXFTDShVyiWIwffX9v-1">
-          <mxGeometry x="8.5" width="490" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="YdpXFTDShVyiWIwffX9v-7" value="矢量数据库&lt;span style=&quot;font-size: 10px; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(26, 26, 26), rgb(215, 215, 215)); font-family: dosis, sans-serif; text-align: start;&quot;&gt;Elastic、Qrdant&lt;/span&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="YdpXFTDShVyiWIwffX9v-1">
-          <mxGeometry x="213.5" y="50" width="86.5" height="60" as="geometry" />
+        <mxCell id="YdpXFTDShVyiWIwffX9v-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YdpXFTDShVyiWIwffX9v-10" target="YdpXFTDShVyiWIwffX9v-14">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YdpXFTDShVyiWIwffX9v-10" value="访问数据存储层读取标准规范数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="120" width="100" height="50" as="geometry" />
+          <mxGeometry x="160" y="120" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="YdpXFTDShVyiWIwffX9v-13" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="YdpXFTDShVyiWIwffX9v-10">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="339.5" y="260" as="sourcePoint" />
-            <mxPoint x="339.5" y="190" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="YdpXFTDShVyiWIwffX9v-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YdpXFTDShVyiWIwffX9v-14" target="YdpXFTDShVyiWIwffX9v-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YdpXFTDShVyiWIwffX9v-14" value="自动子图元数据提取算法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="120" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YdpXFTDShVyiWIwffX9v-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YdpXFTDShVyiWIwffX9v-15" target="YdpXFTDShVyiWIwffX9v-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YdpXFTDShVyiWIwffX9v-15" value="关联动态业务&lt;div&gt;元数据（高价值目标）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="120" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YdpXFTDShVyiWIwffX9v-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YdpXFTDShVyiWIwffX9v-21" target="YdpXFTDShVyiWIwffX9v-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YdpXFTDShVyiWIwffX9v-21" value="生成全局唯一&lt;br&gt;标识子图对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="120" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YdpXFTDShVyiWIwffX9v-26" value="子图元数据&lt;div&gt;质量验证&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="120" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YdpXFTDShVyiWIwffX9v-40" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="170" y="200" width="340" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="YdpXFTDShVyiWIwffX9v-37" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;dashed=1;dashPattern=8 8;" vertex="1" parent="YdpXFTDShVyiWIwffX9v-40">
+          <mxGeometry width="340" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="YdpXFTDShVyiWIwffX9v-2" value="时空数据库&lt;br&gt;PostGIS" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="YdpXFTDShVyiWIwffX9v-40">
+          <mxGeometry x="189.99612244897958" y="60" width="114.44897959183672" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YdpXFTDShVyiWIwffX9v-3" value="对象存储&lt;br&gt;Minio" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="YdpXFTDShVyiWIwffX9v-40">
+          <mxGeometry x="96.0034693877551" y="130" width="114.44897959183672" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YdpXFTDShVyiWIwffX9v-4" value="图数据库（Neoj4）" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="YdpXFTDShVyiWIwffX9v-40">
+          <mxGeometry x="211.5497959183673" y="170" width="114.44897959183672" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YdpXFTDShVyiWIwffX9v-5" value="Redis&lt;div&gt;（&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;缓存集群）&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="YdpXFTDShVyiWIwffX9v-40">
+          <mxGeometry x="39.551020408163254" y="220" width="114.44897959183672" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YdpXFTDShVyiWIwffX9v-7" value="矢量数据库&lt;span style=&quot;font-size: 10px; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(26, 26, 26), rgb(215, 215, 215)); font-family: dosis, sans-serif; text-align: start;&quot;&gt;Elastic、Qrdant&lt;/span&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="YdpXFTDShVyiWIwffX9v-40">
+          <mxGeometry x="52.12571428571425" y="50" width="123.74795918367344" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YdpXFTDShVyiWIwffX9v-39" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); display: inline !important;&quot;&gt;标准数据存储层&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="YdpXFTDShVyiWIwffX9v-40">
+          <mxGeometry x="96" y="10" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
