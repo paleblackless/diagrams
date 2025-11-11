@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.9" pages="6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.9" pages="7">
   <diagram name="框架图" id="DNKjbSXasiBf5FU6qUrO">
     <mxGraphModel dx="695" dy="383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -776,7 +776,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4aoa54wMxkCWBf3CocOo" name="数据处理流程">
-    <mxGraphModel dx="1226" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="865" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -837,6 +837,58 @@
         </mxCell>
         <mxCell id="ez3B_vTXTDoJbWVA1WZA-24" value="标准数据统一规范" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="745" y="267.5" width="77" height="45" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="PZRamhMILj1VdnJPK5SM" name="子图编目流程">
+    <mxGraphModel dx="735" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YdpXFTDShVyiWIwffX9v-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="i62Hu4_nnl7QRz3wZocd-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i62Hu4_nnl7QRz3wZocd-1" value="子图元数据提取" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YdpXFTDShVyiWIwffX9v-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="i62Hu4_nnl7QRz3wZocd-2" target="i62Hu4_nnl7QRz3wZocd-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i62Hu4_nnl7QRz3wZocd-2" value="子图划分索引" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="120" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YdpXFTDShVyiWIwffX9v-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="79" y="263" width="490" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YdpXFTDShVyiWIwffX9v-2" value="时空数据库&lt;br&gt;PostGIS" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="YdpXFTDShVyiWIwffX9v-1">
+          <mxGeometry x="10" y="50" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YdpXFTDShVyiWIwffX9v-3" value="对象存储&lt;br&gt;Minio" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="YdpXFTDShVyiWIwffX9v-1">
+          <mxGeometry x="120" y="50" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YdpXFTDShVyiWIwffX9v-4" value="图数据库（Neoj4）" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="YdpXFTDShVyiWIwffX9v-1">
+          <mxGeometry x="310" y="50" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YdpXFTDShVyiWIwffX9v-5" value="Redis&lt;div&gt;（&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;缓存集群）&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="YdpXFTDShVyiWIwffX9v-1">
+          <mxGeometry x="410" y="50" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YdpXFTDShVyiWIwffX9v-6" value="标准数据存储层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YdpXFTDShVyiWIwffX9v-1">
+          <mxGeometry x="8.5" width="490" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YdpXFTDShVyiWIwffX9v-7" value="矢量数据库&lt;span style=&quot;font-size: 10px; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(26, 26, 26), rgb(215, 215, 215)); font-family: dosis, sans-serif; text-align: start;&quot;&gt;Elastic、Qrdant&lt;/span&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="YdpXFTDShVyiWIwffX9v-1">
+          <mxGeometry x="213.5" y="50" width="86.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YdpXFTDShVyiWIwffX9v-10" value="访问数据存储层读取标准规范数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="120" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YdpXFTDShVyiWIwffX9v-13" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="YdpXFTDShVyiWIwffX9v-10">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="339.5" y="260" as="sourcePoint" />
+            <mxPoint x="339.5" y="190" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
