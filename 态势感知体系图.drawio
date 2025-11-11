@@ -1017,13 +1017,13 @@
         <mxCell id="kQg3wcegd9WAZizAkvMP-18" value="智能识别引擎" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="477.5" y="80" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kQg3wcegd9WAZizAkvMP-19" value="目标冲突与消解&lt;br&gt;基于编目数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="kQg3wcegd9WAZizAkvMP-19" value="目标关联关系挖掘&lt;div&gt;（子图拓扑管理）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="380" y="110" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kQg3wcegd9WAZizAkvMP-20" value="目标冲突与消解&lt;br&gt;基于编目数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="kQg3wcegd9WAZizAkvMP-20" value="目标轨迹预测模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="497" y="110" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kQg3wcegd9WAZizAkvMP-21" value="目标冲突与消解&lt;br&gt;基于编目数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="kQg3wcegd9WAZizAkvMP-21" value="目标行为分析模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="619" y="110" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
