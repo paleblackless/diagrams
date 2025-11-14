@@ -1604,17 +1604,23 @@
         <mxCell id="So1gx0MumoLAr1BDat7i-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="So1gx0MumoLAr1BDat7i-6" target="So1gx0MumoLAr1BDat7i-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="So1gx0MumoLAr1BDat7i-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="So1gx0MumoLAr1BDat7i-6" target="So1gx0MumoLAr1BDat7i-8">
+        <mxCell id="So1gx0MumoLAr1BDat7i-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="So1gx0MumoLAr1BDat7i-6" target="So1gx0MumoLAr1BDat7i-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="So1gx0MumoLAr1BDat7i-6" value="定时多源数据&lt;div&gt;感知对比&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="360" width="110" height="100" as="geometry" />
         </mxCell>
         <mxCell id="So1gx0MumoLAr1BDat7i-8" value="触发失联机制" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="400" y="390" width="80" height="40" as="geometry" />
+          <mxGeometry x="420" y="390" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="So1gx0MumoLAr1BDat7i-9" value="目标等待救或者完成救援机制" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="245" y="510" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="So1gx0MumoLAr1BDat7i-13" value="数据正常" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="So1gx0MumoLAr1BDat7i-16" value="数据异常" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="380" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
