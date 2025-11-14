@@ -1575,6 +1575,18 @@
         <mxCell id="jkb7-RFZjrSgwf8md1bU-18" value="决策执行" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="640" y="220" width="105" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="jkb7-RFZjrSgwf8md1bU-22" value="录入系统" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jkb7-RFZjrSgwf8md1bU-24" value="部署" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="217.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jkb7-RFZjrSgwf8md1bU-25" value="制定任务" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="516" y="294" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jkb7-RFZjrSgwf8md1bU-26" value="Text" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
