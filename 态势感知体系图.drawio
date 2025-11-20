@@ -1198,7 +1198,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QlpIJV6Ehnh54FGUAF8w" name="态势融合技术">
-    <mxGraphModel dx="1050" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1958" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1243,8 +1243,8 @@
         <mxCell id="Zm4R78sROPuyFjOYdULP-12" value="静态和动态目标语义映射" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="369" y="267.5" width="90" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="Zm4R78sROPuyFjOYdULP-14" value="子图" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="190" y="267.5" width="60" height="30" as="geometry" />
+        <mxCell id="Zm4R78sROPuyFjOYdULP-14" value="子图集" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="185" y="266.5" width="55" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Zm4R78sROPuyFjOYdULP-15" value="数据&lt;div&gt;关联&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="267.5" width="60" height="30" as="geometry" />
@@ -1305,6 +1305,26 @@
         </mxCell>
         <mxCell id="PBRWvd2vrem3ekVQ9OY--2" value="注册&lt;div&gt;可信子图库&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="453" y="296.5" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PBRWvd2vrem3ekVQ9OY--4" value="可信子图库" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="262.5" width="110" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="PBRWvd2vrem3ekVQ9OY--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.612;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PBRWvd2vrem3ekVQ9OY--4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70.60000000000014" y="289.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PBRWvd2vrem3ekVQ9OY--6" value="数据筛选" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="256" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PBRWvd2vrem3ekVQ9OY--7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-110" y="430" as="sourcePoint" />
+            <mxPoint x="75" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PBRWvd2vrem3ekVQ9OY--8" value="子图获取" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="430" width="105" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
