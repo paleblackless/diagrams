@@ -1198,7 +1198,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QlpIJV6Ehnh54FGUAF8w" name="态势融合技术">
-    <mxGraphModel dx="1042" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1233,7 +1233,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Zm4R78sROPuyFjOYdULP-10" value="渲染空间预处理&lt;div&gt;和注册&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="250" y="267.5" width="90" height="55" as="geometry" />
+          <mxGeometry x="240" y="267.5" width="90" height="55" as="geometry" />
         </mxCell>
         <mxCell id="Zm4R78sROPuyFjOYdULP-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Zm4R78sROPuyFjOYdULP-12" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1241,19 +1241,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Zm4R78sROPuyFjOYdULP-12" value="静态和动态目标语义映射" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="380" y="267.5" width="90" height="55" as="geometry" />
+          <mxGeometry x="369" y="267.5" width="90" height="55" as="geometry" />
         </mxCell>
         <mxCell id="Zm4R78sROPuyFjOYdULP-14" value="子图" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="190" y="267.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Zm4R78sROPuyFjOYdULP-15" value="数据&lt;div&gt;关联&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="330" y="267" width="60" height="30" as="geometry" />
+          <mxGeometry x="320" y="267.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Zm4R78sROPuyFjOYdULP-24" value="融合态势总图网格数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="710" y="262.5" width="90" height="55" as="geometry" />
         </mxCell>
         <mxCell id="Zm4R78sROPuyFjOYdULP-25" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="521.71" y="180" width="118.5" height="220" as="geometry" />
+          <mxGeometry x="526.71" y="180" width="118.5" height="220" as="geometry" />
         </mxCell>
         <mxCell id="Zm4R78sROPuyFjOYdULP-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" parent="Zm4R78sROPuyFjOYdULP-25" vertex="1">
           <mxGeometry width="118.5" height="220.00000000000003" as="geometry" />
@@ -1267,7 +1267,7 @@
         <mxCell id="Zm4R78sROPuyFjOYdULP-19" value="目标子图&lt;div&gt;对齐识别&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="Zm4R78sROPuyFjOYdULP-25" vertex="1">
           <mxGeometry x="8.362499999999955" y="48.888888888888886" width="94.80000000000001" height="48.88888888888889" as="geometry" />
         </mxCell>
-        <mxCell id="Zm4R78sROPuyFjOYdULP-20" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;子图融合和优化引擎&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="Zm4R78sROPuyFjOYdULP-25" vertex="1">
+        <mxCell id="Zm4R78sROPuyFjOYdULP-20" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;子图融合优化引擎&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="Zm4R78sROPuyFjOYdULP-25" vertex="1">
           <mxGeometry x="20.209999999999923" y="8.560000000000002" width="78.08" height="41.44" as="geometry" />
         </mxCell>
         <mxCell id="Zm4R78sROPuyFjOYdULP-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Zm4R78sROPuyFjOYdULP-16" target="Zm4R78sROPuyFjOYdULP-24" edge="1">
@@ -1300,8 +1300,11 @@
         <mxCell id="Zm4R78sROPuyFjOYdULP-34" value="态势总图" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="680" y="440" width="105" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Zm4R78sROPuyFjOYdULP-35" value="数据叠加" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="640.21" y="250" width="60" height="30" as="geometry" />
+        <mxCell id="Zm4R78sROPuyFjOYdULP-35" value="增强型可信子图库" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="650" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PBRWvd2vrem3ekVQ9OY--2" value="注册&lt;div&gt;可信子图库&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="453" y="296.5" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
