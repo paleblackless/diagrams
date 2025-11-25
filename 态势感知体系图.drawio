@@ -2061,6 +2061,9 @@
         <mxCell id="dpd9KDTVA4dDxDRz7rHk-9" parent="dpd9KDTVA4dDxDRz7rHk-36" style="rounded=1;whiteSpace=wrap;html=1;" value="态势可视化中心" vertex="1">
           <mxGeometry height="50" width="115" x="137.5" y="5" as="geometry" />
         </mxCell>
+        <mxCell id="dpd9KDTVA4dDxDRz7rHk-59" parent="dpd9KDTVA4dDxDRz7rHk-36" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="输出应用" vertex="1">
+          <mxGeometry height="30" width="60" x="40" y="15" as="geometry" />
+        </mxCell>
         <mxCell id="dpd9KDTVA4dDxDRz7rHk-56" edge="1" parent="1" source="dpd9KDTVA4dDxDRz7rHk-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.15;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" target="dpd9KDTVA4dDxDRz7rHk-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
