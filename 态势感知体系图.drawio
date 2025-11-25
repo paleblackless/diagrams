@@ -1784,7 +1784,7 @@
             <mxPoint x="460" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LmZk_XXtFah5qX7UY4k2-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="基于历史轨迹信息的候选地预测" vertex="1">
+        <mxCell id="LmZk_XXtFah5qX7UY4k2-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="基于历史轨迹信息的目的地预测" vertex="1">
           <mxGeometry height="50" width="94" x="300" y="195" as="geometry" />
         </mxCell>
         <mxCell id="LmZk_XXtFah5qX7UY4k2-25" edge="1" parent="1" source="LmZk_XXtFah5qX7UY4k2-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="LmZk_XXtFah5qX7UY4k2-22">
