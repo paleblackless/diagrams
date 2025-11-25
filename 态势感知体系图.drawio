@@ -1844,6 +1844,15 @@
         <mxCell id="LmZk_XXtFah5qX7UY4k2-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="修正预测位置" vertex="1">
           <mxGeometry height="60" width="120" x="830" y="290" as="geometry" />
         </mxCell>
+        <mxCell id="LmZk_XXtFah5qX7UY4k2-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;目标轨迹预测&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="460" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="LmZk_XXtFah5qX7UY4k2-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;目标轨迹修正&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="590" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="LmZk_XXtFah5qX7UY4k2-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;目标丢失检测&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="-90" y="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
