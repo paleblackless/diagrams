@@ -2399,7 +2399,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5np352LY4M3NoUO6Nj_9" name="行动轨迹规划">
-    <mxGraphModel dx="588" dy="341" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="735" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2455,7 +2455,7 @@
         <mxCell id="UxpPeqJ26Ra4a3UxbLrO-11" edge="1" parent="1" source="UxpPeqJ26Ra4a3UxbLrO-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="UxpPeqJ26Ra4a3UxbLrO-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UxpPeqJ26Ra4a3UxbLrO-28" connectable="0" parent="UxpPeqJ26Ra4a3UxbLrO-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];container=0;" value="人工势场图" vertex="1">
+        <mxCell id="UxpPeqJ26Ra4a3UxbLrO-28" connectable="0" parent="UxpPeqJ26Ra4a3UxbLrO-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];container=0;" value="人工势场网格图" vertex="1">
           <mxGeometry relative="1" x="-0.1914" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -2471,6 +2471,11 @@
         </mxCell>
         <mxCell id="UxpPeqJ26Ra4a3UxbLrO-62" edge="1" parent="1" source="UxpPeqJ26Ra4a3UxbLrO-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;curved=1;" target="UxpPeqJ26Ra4a3UxbLrO-13">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UxpPeqJ26Ra4a3UxbLrO-66" connectable="0" parent="UxpPeqJ26Ra4a3UxbLrO-62" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;b&gt;全局路径生成&lt;/b&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1126" y="1" as="geometry">
+            <mxPoint y="-21" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="UxpPeqJ26Ra4a3UxbLrO-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" value="A*全局路径规划算法&lt;br&gt;（静态环境）" vertex="1">
           <mxGeometry height="60" width="120" x="446" y="280" as="geometry" />
@@ -2515,6 +2520,11 @@
         </mxCell>
         <mxCell id="UxpPeqJ26Ra4a3UxbLrO-15" edge="1" parent="1" source="UxpPeqJ26Ra4a3UxbLrO-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;curved=1;" target="UxpPeqJ26Ra4a3UxbLrO-3">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UxpPeqJ26Ra4a3UxbLrO-64" connectable="0" parent="UxpPeqJ26Ra4a3UxbLrO-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;b&gt;位置更新&lt;/b&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0959" y="-3" as="geometry">
+            <mxPoint x="13" y="18" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="UxpPeqJ26Ra4a3UxbLrO-16" edge="1" parent="1" source="UxpPeqJ26Ra4a3UxbLrO-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;curved=1;" target="UxpPeqJ26Ra4a3UxbLrO-5">
           <mxGeometry relative="1" as="geometry" />
