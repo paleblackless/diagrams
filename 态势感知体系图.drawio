@@ -2524,7 +2524,7 @@
         <mxCell id="UxpPeqJ26Ra4a3UxbLrO-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" value="算法协同" vertex="1">
           <mxGeometry height="50" width="114" x="452" y="430" as="geometry" />
         </mxCell>
-        <mxCell id="UxpPeqJ26Ra4a3UxbLrO-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" value="可选救援路径" vertex="1">
+        <mxCell id="UxpPeqJ26Ra4a3UxbLrO-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" value="救援路径" vertex="1">
           <mxGeometry height="40" width="90" x="195" y="530" as="geometry" />
         </mxCell>
         <mxCell id="UxpPeqJ26Ra4a3UxbLrO-58" edge="1" parent="1" source="UxpPeqJ26Ra4a3UxbLrO-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;strokeColor=#FF3333;" target="UxpPeqJ26Ra4a3UxbLrO-5">
@@ -2534,7 +2534,7 @@
           <mxGeometry height="40" width="60" x="384" y="360" as="geometry" />
         </mxCell>
         <mxCell id="UxpPeqJ26Ra4a3UxbLrO-63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="全局+局部路径" vertex="1">
-          <mxGeometry height="30" width="90" x="150" y="490" as="geometry" />
+          <mxGeometry height="30" width="90" x="240" y="490" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
