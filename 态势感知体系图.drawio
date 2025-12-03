@@ -2433,7 +2433,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5np352LY4M3NoUO6Nj_9" name="行动轨迹规划">
-    <mxGraphModel dx="632" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
+    <mxGraphModel dx="1042" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2573,14 +2573,11 @@
         <mxCell id="UxpPeqJ26Ra4a3UxbLrO-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" value="安全走廊" vertex="1">
           <mxGeometry height="40" width="60" x="390" y="330" as="geometry" />
         </mxCell>
-        <mxCell id="bs7pL66flVOTlyjSrU3l-5" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="70" width="90" x="700" y="390" as="geometry" />
+        <mxCell id="UxpPeqJ26Ra4a3UxbLrO-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" value="救援路径" vertex="1">
+          <mxGeometry height="40" width="90" x="660" y="420" as="geometry" />
         </mxCell>
-        <mxCell id="UxpPeqJ26Ra4a3UxbLrO-18" parent="bs7pL66flVOTlyjSrU3l-5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" value="救援路径" vertex="1">
-          <mxGeometry height="40" width="90" y="30" as="geometry" />
-        </mxCell>
-        <mxCell id="UxpPeqJ26Ra4a3UxbLrO-63" parent="bs7pL66flVOTlyjSrU3l-5" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="全局+局部路径" vertex="1">
-          <mxGeometry height="30" width="90" as="geometry" />
+        <mxCell id="UxpPeqJ26Ra4a3UxbLrO-63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="全局+局部路径" vertex="1">
+          <mxGeometry height="30" width="90" x="520" y="420" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
