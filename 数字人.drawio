@@ -45,6 +45,14 @@
         <mxCell id="7niqKCdb1v8UmQUghoSy-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="模型输出对应内容" vertex="1">
           <mxGeometry height="50" width="120" x="455" y="200" as="geometry" />
         </mxCell>
+        <mxCell id="7niqKCdb1v8UmQUghoSy-21" edge="1" parent="1" source="7niqKCdb1v8UmQUghoSy-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;dashed=1;dashPattern=8 8;" target="7niqKCdb1v8UmQUghoSy-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7niqKCdb1v8UmQUghoSy-22" connectable="0" parent="7niqKCdb1v8UmQUghoSy-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="TTS(文本转语音)" vertex="1">
+          <mxGeometry relative="1" x="-0.0004" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="7niqKCdb1v8UmQUghoSy-15" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;语音模型&lt;/b&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="69.25" width="140" x="600" y="290" as="geometry" />
         </mxCell>
@@ -61,6 +69,12 @@
           <mxGeometry relative="1" x="-0.2549" y="2" as="geometry">
             <mxPoint x="22" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="7niqKCdb1v8UmQUghoSy-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="音频序列" vertex="1">
+          <mxGeometry height="30" width="80" x="540" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="7niqKCdb1v8UmQUghoSy-23" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;数字人对象&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="69.25" width="140" x="620" y="460" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
