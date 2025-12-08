@@ -4,8 +4,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7niqKCdb1v8UmQUghoSy-42" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="578.75" width="670" x="250" y="51.25" as="geometry" />
+        <mxCell id="7niqKCdb1v8UmQUghoSy-42" connectable="0" parent="1" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="587.5" width="670" x="250" y="51.25" as="geometry" />
         </mxCell>
         <mxCell id="7niqKCdb1v8UmQUghoSy-7" parent="7niqKCdb1v8UmQUghoSy-42" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;dashed=1;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
           <mxGeometry height="578.75" width="670" as="geometry" />
@@ -27,7 +27,7 @@
         <mxCell id="7niqKCdb1v8UmQUghoSy-14" edge="1" parent="7niqKCdb1v8UmQUghoSy-42" source="7niqKCdb1v8UmQUghoSy-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;dashPattern=8 8;" target="7niqKCdb1v8UmQUghoSy-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7niqKCdb1v8UmQUghoSy-10" parent="7niqKCdb1v8UmQUghoSy-42" style="rhombus;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;大语言模型&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;（中枢模型）&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="7niqKCdb1v8UmQUghoSy-10" parent="7niqKCdb1v8UmQUghoSy-42" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;大语言模型&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;（中枢模型）&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="69.25" width="140" x="340" y="49.129999999999995" as="geometry" />
         </mxCell>
         <mxCell id="7niqKCdb1v8UmQUghoSy-12" parent="7niqKCdb1v8UmQUghoSy-42" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="多模态数据（ASR文字、图片、视频）" vertex="1">
@@ -44,7 +44,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7niqKCdb1v8UmQUghoSy-15" parent="7niqKCdb1v8UmQUghoSy-42" style="rhombus;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;语音模型&lt;/b&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="7niqKCdb1v8UmQUghoSy-15" parent="7niqKCdb1v8UmQUghoSy-42" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;语音模型&lt;/b&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="69.25" width="140" x="350" y="238.75" as="geometry" />
         </mxCell>
         <mxCell id="7niqKCdb1v8UmQUghoSy-16" edge="1" parent="7niqKCdb1v8UmQUghoSy-42" source="7niqKCdb1v8UmQUghoSy-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;dashed=1;dashPattern=8 8;">
@@ -62,9 +62,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7niqKCdb1v8UmQUghoSy-24" edge="1" parent="7niqKCdb1v8UmQUghoSy-42" source="7niqKCdb1v8UmQUghoSy-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;dashed=1;dashPattern=8 8;" target="7niqKCdb1v8UmQUghoSy-23">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="409" />
+              <mxPoint x="320" y="409" />
+              <mxPoint x="320" y="400" />
+              <mxPoint x="453" y="400" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="7niqKCdb1v8UmQUghoSy-25" connectable="0" parent="7niqKCdb1v8UmQUghoSy-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="结构化数据和文件&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="7niqKCdb1v8UmQUghoSy-25" connectable="0" parent="7niqKCdb1v8UmQUghoSy-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="结构化数据和文件&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.1359" y="6" as="geometry">
             <mxPoint x="11" y="6" as="offset" />
           </mxGeometry>
@@ -75,10 +82,13 @@
         <mxCell id="7niqKCdb1v8UmQUghoSy-27" edge="1" parent="7niqKCdb1v8UmQUghoSy-42" source="7niqKCdb1v8UmQUghoSy-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;dashed=1;dashPattern=12 12;" target="7niqKCdb1v8UmQUghoSy-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7niqKCdb1v8UmQUghoSy-23" parent="7niqKCdb1v8UmQUghoSy-42" style="rhombus;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;数字人引擎&lt;/b&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="7niqKCdb1v8UmQUghoSy-23" parent="7niqKCdb1v8UmQUghoSy-42" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;数字人引擎&lt;/b&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="69.25" width="140" x="383.5" y="419.5" as="geometry" />
         </mxCell>
         <mxCell id="7niqKCdb1v8UmQUghoSy-30" edge="1" parent="7niqKCdb1v8UmQUghoSy-42" source="7niqKCdb1v8UmQUghoSy-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="7niqKCdb1v8UmQUghoSy-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7niqKCdb1v8UmQUghoSy-45" edge="1" parent="7niqKCdb1v8UmQUghoSy-42" source="7niqKCdb1v8UmQUghoSy-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="7niqKCdb1v8UmQUghoSy-23" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7niqKCdb1v8UmQUghoSy-26" parent="7niqKCdb1v8UmQUghoSy-42" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;一段数字人的音频内容片段，数字人模型从音频中国获取信息内容，合成表情、姿态、口型、声音风格等输出必要元素&lt;/font&gt;" vertex="1">
@@ -122,6 +132,9 @@
         </mxCell>
         <mxCell id="7niqKCdb1v8UmQUghoSy-44" parent="7niqKCdb1v8UmQUghoSy-42" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;数字人业务应用&lt;/b&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="190" x="230" y="8.75" as="geometry" />
+        </mxCell>
+        <mxCell id="7niqKCdb1v8UmQUghoSy-46" parent="7niqKCdb1v8UmQUghoSy-42" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;dashed=1;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="578.75" width="670" y="8.75" as="geometry" />
         </mxCell>
         <mxCell id="7niqKCdb1v8UmQUghoSy-6" edge="1" parent="1" source="7niqKCdb1v8UmQUghoSy-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 4;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" target="7niqKCdb1v8UmQUghoSy-2">
           <mxGeometry relative="1" as="geometry" />
