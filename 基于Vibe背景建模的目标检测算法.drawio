@@ -147,7 +147,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="q2OjF6bzxAkGcx60808j" name="第 2 页">
-    <mxGraphModel dx="1978" dy="1204" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1615" dy="957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -163,8 +163,8 @@
         <mxCell id="ThhLA8WDUSv3wwxHXLjl-5" parent="ThhLA8WDUSv3wwxHXLjl-4" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" value="IGameAlgorithm (统一算法接口)&#xa;solve()&#xa;getStrategy()&#xa;getPayoffs()" vertex="1">
           <mxGeometry height="100" width="600" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="ThhLA8WDUSv3wwxHXLjl-11" parent="1" style="swimlane;fontStyle=1;fontSize=16;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#FFF3E0;strokeColor=#FF9800;" value="算法库实现层 (Algorithm Libraries)" vertex="1">
-          <mxGeometry height="350" width="460" x="-440" y="360" as="geometry" />
+        <mxCell id="ThhLA8WDUSv3wwxHXLjl-11" parent="1" style="swimlane;fontStyle=1;fontSize=20;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#FFF3E0;strokeColor=#FF9800;" value="算法库实现层 (Algorithm Libraries)" vertex="1">
+          <mxGeometry height="350" width="460" x="-440" y="350" as="geometry" />
         </mxCell>
         <mxCell id="ThhLA8WDUSv3wwxHXLjl-12" parent="ThhLA8WDUSv3wwxHXLjl-11" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFCCBC;strokeColor=#E64A19;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;GTLib2&lt;/font&gt;" vertex="1">
           <mxGeometry height="80" width="460" y="30" as="geometry" />
